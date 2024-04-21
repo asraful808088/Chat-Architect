@@ -1,0 +1,10 @@
+{
+  "name": "condition check",
+  "des": "this is for testring",
+  "multiType": [
+    "hi hello",
+    "knn"
+  ],
+  "binaryType": true,
+  "setValue": "hi hello"
+}

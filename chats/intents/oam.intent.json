@@ -1,0 +1,765 @@
+{
+  "name": "oam",
+  "des": "new intent",
+  "items": [
+    {
+      "text": "this IS my omasd ajhsdv asd asdvasd",
+      "option": {
+        "FWG": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "WrongThreshold": 0.92
+        },
+        "WGFA": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "startWrongThreshold": 0.92,
+          "endWrongThreshold": 0.92
+        },
+        "FLWG": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "WrongThreshold": 0.75
+        },
+        "letterProcess": {
+          "checked": true,
+          "uppercase": true,
+          "lowercase": true,
+          "capitalize": true
+        },
+        "PWGS": {
+          "checked": true,
+          "items": []
+        },
+        "PBRP": {
+          "checked": true,
+          "default": {
+            "set": true
+          },
+          "custom": {
+            "set": false,
+            "items": []
+          }
+        },
+        "CSA": {
+          "checked": true
+        },
+        "WSAIS": {
+          "checked": true
+        }
+      },
+      "name": "oam",
+      "id": "400f3325-959d-49bb-8799-8c75f4032ccc",
+      "defaultOptions": true,
+      "process": false
+    },
+    {
+      "text": "asdjk ahsjdghjasda",
+      "option": {
+        "FWG": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "WrongThreshold": 0.92
+        },
+        "WGFA": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "startWrongThreshold": 0.92,
+          "endWrongThreshold": 0.92
+        },
+        "FLWG": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "WrongThreshold": 0.75
+        },
+        "letterProcess": {
+          "checked": true,
+          "uppercase": true,
+          "lowercase": true,
+          "capitalize": true
+        },
+        "PWGS": {
+          "checked": true,
+          "items": []
+        },
+        "PBRP": {
+          "checked": true,
+          "default": {
+            "set": true
+          },
+          "custom": {
+            "set": false,
+            "items": []
+          }
+        },
+        "CSA": {
+          "checked": true
+        },
+        "WSAIS": {
+          "checked": true
+        }
+      },
+      "name": "oam",
+      "id": "3b5279c8-8e70-494a-8de9-ab8862579568",
+      "defaultOptions": true,
+      "process": false
+    },
+    {
+      "text": "sdbdh jasgdhjasg dhjasd a",
+      "option": {
+        "FWG": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "WrongThreshold": 0.92
+        },
+        "WGFA": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "startWrongThreshold": 0.92,
+          "endWrongThreshold": 0.92
+        },
+        "FLWG": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "WrongThreshold": 0.75
+        },
+        "letterProcess": {
+          "checked": true,
+          "uppercase": true,
+          "lowercase": true,
+          "capitalize": true
+        },
+        "PWGS": {
+          "checked": true,
+          "items": []
+        },
+        "PBRP": {
+          "checked": true,
+          "default": {
+            "set": true
+          },
+          "custom": {
+            "set": false,
+            "items": []
+          }
+        },
+        "CSA": {
+          "checked": true
+        },
+        "WSAIS": {
+          "checked": true
+        }
+      },
+      "name": "oam",
+      "id": "4dadca80-59dd-40d3-a9b5-1b23bbca4ad7",
+      "defaultOptions": true,
+      "process": false
+    },
+    {
+      "text": "sda sjhdasjdghasdhj132hg123",
+      "option": {
+        "FWG": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "WrongThreshold": 0.92
+        },
+        "WGFA": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "startWrongThreshold": 0.92,
+          "endWrongThreshold": 0.92
+        },
+        "FLWG": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "WrongThreshold": 0.75
+        },
+        "letterProcess": {
+          "checked": true,
+          "uppercase": true,
+          "lowercase": true,
+          "capitalize": true
+        },
+        "PWGS": {
+          "checked": true,
+          "items": []
+        },
+        "PBRP": {
+          "checked": true,
+          "default": {
+            "set": true
+          },
+          "custom": {
+            "set": false,
+            "items": []
+          }
+        },
+        "CSA": {
+          "checked": true
+        },
+        "WSAIS": {
+          "checked": true
+        }
+      },
+      "name": "oam",
+      "id": "fa9ef35d-d440-4d75-906e-6ad429b6cac2",
+      "defaultOptions": true,
+      "process": false
+    },
+    {
+      "text": "\\as dhajsdgajhsdgasd",
+      "option": {
+        "FWG": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "WrongThreshold": 0.92
+        },
+        "WGFA": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "startWrongThreshold": 0.92,
+          "endWrongThreshold": 0.92
+        },
+        "FLWG": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "WrongThreshold": 0.75
+        },
+        "letterProcess": {
+          "checked": true,
+          "uppercase": true,
+          "lowercase": true,
+          "capitalize": true
+        },
+        "PWGS": {
+          "checked": true,
+          "items": []
+        },
+        "PBRP": {
+          "checked": true,
+          "default": {
+            "set": true
+          },
+          "custom": {
+            "set": false,
+            "items": []
+          }
+        },
+        "CSA": {
+          "checked": true
+        },
+        "WSAIS": {
+          "checked": true
+        }
+      },
+      "name": "oam",
+      "id": "1113ee8e-f7eb-4c78-8eb0-90c9278d8b01",
+      "defaultOptions": true,
+      "process": false
+    },
+    {
+      "text": "1231 hjghjasgdahsdasd",
+      "option": {
+        "FWG": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "WrongThreshold": 0.92
+        },
+        "WGFA": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "startWrongThreshold": 0.92,
+          "endWrongThreshold": 0.92
+        },
+        "FLWG": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "WrongThreshold": 0.75
+        },
+        "letterProcess": {
+          "checked": true,
+          "uppercase": true,
+          "lowercase": true,
+          "capitalize": true
+        },
+        "PWGS": {
+          "checked": true,
+          "items": []
+        },
+        "PBRP": {
+          "checked": true,
+          "default": {
+            "set": true
+          },
+          "custom": {
+            "set": false,
+            "items": []
+          }
+        },
+        "CSA": {
+          "checked": true
+        },
+        "WSAIS": {
+          "checked": true
+        }
+      },
+      "name": "oam",
+      "id": "f539cc1a-04fb-4713-ac16-5558a71d3829",
+      "defaultOptions": true,
+      "process": false
+    },
+    {
+      "text": "asdkj hajsdgajhsdghjasgdhjasd",
+      "option": {
+        "FWG": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "WrongThreshold": 0.92
+        },
+        "WGFA": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "startWrongThreshold": 0.92,
+          "endWrongThreshold": 0.92
+        },
+        "FLWG": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "WrongThreshold": 0.75
+        },
+        "letterProcess": {
+          "checked": true,
+          "uppercase": true,
+          "lowercase": true,
+          "capitalize": true
+        },
+        "PWGS": {
+          "checked": true,
+          "items": []
+        },
+        "PBRP": {
+          "checked": true,
+          "default": {
+            "set": true
+          },
+          "custom": {
+            "set": false,
+            "items": []
+          }
+        },
+        "CSA": {
+          "checked": true
+        },
+        "WSAIS": {
+          "checked": true
+        }
+      },
+      "name": "oam",
+      "id": "cb3d38f2-780f-4519-9de6-8a7f97995140",
+      "defaultOptions": true,
+      "process": false
+    },
+    {
+      "text": "asd ajskd ajsdhjafshjdfasda",
+      "option": {
+        "FWG": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "WrongThreshold": 0.92
+        },
+        "WGFA": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "startWrongThreshold": 0.92,
+          "endWrongThreshold": 0.92
+        },
+        "FLWG": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "WrongThreshold": 0.75
+        },
+        "letterProcess": {
+          "checked": true,
+          "uppercase": true,
+          "lowercase": true,
+          "capitalize": true
+        },
+        "PWGS": {
+          "checked": true,
+          "items": []
+        },
+        "PBRP": {
+          "checked": true,
+          "default": {
+            "set": true
+          },
+          "custom": {
+            "set": false,
+            "items": []
+          }
+        },
+        "CSA": {
+          "checked": true
+        },
+        "WSAIS": {
+          "checked": true
+        }
+      },
+      "name": "oam",
+      "id": "4a995864-ba37-48b5-aa42-a39f8aea3c57",
+      "defaultOptions": true,
+      "process": false
+    },
+    {
+      "text": "d asjdh jasgdafsdhjasjh12g3j1h2g",
+      "option": {
+        "FWG": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "WrongThreshold": 0.92
+        },
+        "WGFA": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "startWrongThreshold": 0.92,
+          "endWrongThreshold": 0.92
+        },
+        "FLWG": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "WrongThreshold": 0.75
+        },
+        "letterProcess": {
+          "checked": true,
+          "uppercase": true,
+          "lowercase": true,
+          "capitalize": true
+        },
+        "PWGS": {
+          "checked": true,
+          "items": []
+        },
+        "PBRP": {
+          "checked": true,
+          "default": {
+            "set": true
+          },
+          "custom": {
+            "set": false,
+            "items": []
+          }
+        },
+        "CSA": {
+          "checked": true
+        },
+        "WSAIS": {
+          "checked": true
+        }
+      },
+      "name": "oam",
+      "id": "ca29923e-f30d-4f92-808d-24c6c4ad1f17",
+      "defaultOptions": true,
+      "process": false
+    },
+    {
+      "text": "asd kjasd gasd",
+      "option": {
+        "FWG": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "WrongThreshold": 0.92
+        },
+        "WGFA": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "startWrongThreshold": 0.92,
+          "endWrongThreshold": 0.92
+        },
+        "FLWG": {
+          "checked": true,
+          "generateQuantity": 20,
+          "tryToGenerateQuantity": 50000,
+          "WrongThreshold": 0.75
+        },
+        "letterProcess": {
+          "checked": true,
+          "uppercase": true,
+          "lowercase": true,
+          "capitalize": true
+        },
+        "PWGS": {
+          "checked": true,
+          "items": []
+        },
+        "PBRP": {
+          "checked": true,
+          "default": {
+            "set": true
+          },
+          "custom": {
+            "set": false,
+            "items": []
+          }
+        },
+        "CSA": {
+          "checked": true
+        },
+        "WSAIS": {
+          "checked": true
+        }
+      },
+      "name": "oam",
+      "id": "20ff351c-ba15-48a8-9169-8329a1491fc3",
+      "defaultOptions": true,
+      "process": false
+    }
+  ],
+  "option": {
+    "FWG": {
+      "checked": true,
+      "generateQuantity": 20,
+      "tryToGenerateQuantity": 50000,
+      "WrongThreshold": 0.92
+    },
+    "WGFA": {
+      "checked": true,
+      "generateQuantity": 20,
+      "tryToGenerateQuantity": 50000,
+      "startWrongThreshold": 0.92,
+      "endWrongThreshold": 0.92
+    },
+    "FLWG": {
+      "checked": true,
+      "generateQuantity": 20,
+      "tryToGenerateQuantity": 50000,
+      "WrongThreshold": 0.75
+    },
+    "letterProcess": {
+      "checked": true,
+      "uppercase": true,
+      "lowercase": true,
+      "capitalize": true
+    },
+    "PWGS": {
+      "checked": true,
+      "items": []
+    },
+    "PBRP": {
+      "checked": true,
+      "default": {
+        "set": true
+      },
+      "custom": {
+        "set": false,
+        "items": []
+      }
+    },
+    "CSA": {
+      "checked": true
+    },
+    "WSAIS": {
+      "checked": true
+    }
+  },
+  "intents": [
+    {
+      "text": "this IS my omasd ajhsdv asd asdvasd",
+      "simpleWrong": [
+        "THIS IS AJHSDV OMASD ASD MY ASDVASD",
+        "THIS AJHSDV ASDVASD MY ASD OMASD IS",
+        "THIS AJHSDV IS MY OMASD ASDVASD ASD",
+        "THIS IS MY ASDVASD OMASD ASD AJHSDV",
+        "THIS IS OMASD AJHSDV ASD MY ASDVASD",
+        "THIS ASD AJHSDV MY IS ASDVASD OMASD",
+        "THIS IS MY AJHSDV OMASD ASD ASDVASD",
+        "THIS ASD OMASD IS AJHSDV MY ASDVASD",
+        "THIS OMASD AJHSDV ASD MY IS ASDVASD",
+        "THIS OMASD AJHSDV MY ASD IS ASDVASD",
+        "THIS OMASD IS AJHSDV MY ASD ASDVASD",
+        "THIS ASDVASD MY IS AJHSDV OMASD ASD",
+        "THIS AJHSDV MY IS ASD ASDVASD OMASD",
+        "THIS IS AJHSDV MY ASDVASD OMASD ASD",
+        "THIS AJHSDV ASD OMASD MY ASDVASD IS",
+        "THIS MY AJHSDV IS ASD OMASD ASDVASD",
+        "THIS AJHSDV ASD IS OMASD MY ASDVASD",
+        "THIS IS AJHSDV MY ASDVASD ASD OMASD",
+        "THIS ASD IS MY OMASD AJHSDV ASDVASD",
+        "this my ajhsdv asd is omasd asdvasd",
+        "this ajhsdv omasd is asd my asdvasd",
+        "this omasd ajhsdv my is asd asdvasd",
+        "this my asdvasd ajhsdv omasd asd is",
+        "this omasd my ajhsdv asd is asdvasd",
+        "this is asdvasd asd my omasd ajhsdv",
+        "this ajhsdv omasd my asd is asdvasd",
+        "this asd omasd is my ajhsdv asdvasd",
+        "this omasd my asd ajhsdv is asdvasd",
+        "this my is omasd asd asdvasd ajhsdv",
+        "this is my asdvasd ajhsdv omasd asd",
+        "this asd omasd my ajhsdv is asdvasd",
+        "this omasd is my ajhsdv asdvasd asd",
+        "omasd my is this ajhsdv asd asdvasd",
+        "this is asd ajhsdv my omasd asdvasd",
+        "this my asd ajhsdv is asdvasd omasd",
+        "this is omasd asdvasd my asd ajhsdv",
+        "this asdvasd my is ajhsdv omasd asd",
+        "is my this omasd ajhsdv asdvasd asd",
+        "this is my asdvasd asd omasd ajhsdv",
+        "This ajhsdv is asd omasd my asdvasd",
+        "my This omasd is ajhsdv asdvasd asd",
+        "This is my asd omasd ajhsdv asdvasd",
+        "This ajhsdv asd omasd my is asdvasd",
+        "This is ajhsdv my omasd asd asdvasd",
+        "This my is asd omasd ajhsdv asdvasd",
+        "This my asdvasd omasd is asd ajhsdv",
+        "This ajhsdv my asd is omasd asdvasd",
+        "This omasd asd ajhsdv is my asdvasd",
+        "This omasd asdvasd is my ajhsdv asd",
+        "This asd ajhsdv my is omasd asdvasd",
+        "This asd is my omasd asdvasd ajhsdv",
+        "This is asdvasd omasd my ajhsdv asd",
+        "is This my omasd ajhsdv asdvasd asd",
+        "This asdvasd is my asd omasd ajhsdv",
+        "This ajhsdv my is omasd asdvasd asd",
+        "This is asdvasd my asd omasd ajhsdv",
+        "This ajhsdv my asd omasd is asdvasd",
+        "This ajhsdv is omasd my asdvasd asd",
+        "this IS my omasd ajhsdv asd asdvasd"
+      ],
+      "id": "400f3325-959d-49bb-8799-8c75f4032ccc",
+      "mainBlocName": "oam"
+    },
+    {
+      "text": "asdjk ahsjdghjasda",
+      "simpleWrong": [
+        "asdjk ahsjdghjasda"
+      ],
+      "id": "3b5279c8-8e70-494a-8de9-ab8862579568",
+      "mainBlocName": "oam"
+    },
+    {
+      "text": "sdbdh jasgdhjasg dhjasd a",
+      "simpleWrong": [
+        "SDBDH A JASGDHJASG DHJASD",
+        "SDBDH DHJASD JASGDHJASG A",
+        "SDBDH JASGDHJASG A DHJASD",
+        "SDBDH DHJASD A JASGDHJASG",
+        "SDBDH A DHJASD JASGDHJASG",
+        "sdbdh dhjasd jasgdhjasg a",
+        "sdbdh a dhjasd jasgdhjasg",
+        "sdbdh dhjasd a jasgdhjasg",
+        "sdbdh a jasgdhjasg dhjasd",
+        "sdbdh jasgdhjasg a dhjasd",
+        "Sdbdh a jasgdhjasg dhjasd",
+        "Sdbdh a dhjasd jasgdhjasg",
+        "Sdbdh dhjasd jasgdhjasg a",
+        "Sdbdh jasgdhjasg a dhjasd",
+        "Sdbdh dhjasd a jasgdhjasg",
+        "sdbdh jasgdhjasg dhjasd a"
+      ],
+      "id": "4dadca80-59dd-40d3-a9b5-1b23bbca4ad7",
+      "mainBlocName": "oam"
+    },
+    {
+      "text": "sda sjhdasjdghasdhj132hg123",
+      "simpleWrong": [
+        "sda sjhdasjdghasdhj132hg123"
+      ],
+      "id": "fa9ef35d-d440-4d75-906e-6ad429b6cac2",
+      "mainBlocName": "oam"
+    },
+    {
+      "text": "\\as dhajsdgajhsdgasd",
+      "simpleWrong": [
+        "as dhajsdgajhsdgasd"
+      ],
+      "id": "1113ee8e-f7eb-4c78-8eb0-90c9278d8b01",
+      "mainBlocName": "oam"
+    },
+    {
+      "text": "1231 hjghjasgdahsdasd",
+      "simpleWrong": [
+        "1231 hjghjasgdahsdasd"
+      ],
+      "id": "f539cc1a-04fb-4713-ac16-5558a71d3829",
+      "mainBlocName": "oam"
+    },
+    {
+      "text": "asdkj hajsdgajhsdghjasgdhjasd",
+      "simpleWrong": [
+        "asdkj hajsdgajhsdghjasgdhjasd"
+      ],
+      "id": "cb3d38f2-780f-4519-9de6-8a7f97995140",
+      "mainBlocName": "oam"
+    },
+    {
+      "text": "asd ajskd ajsdhjafshjdfasda",
+      "simpleWrong": [
+        "AJSKD ASD AJSDHJAFSHJDFASDA",
+        "ASD AJSDHJAFSHJDFASDA AJSKD",
+        "asd ajsdhjafshjdfasda ajskd",
+        "ajskd asd ajsdhjafshjdfasda",
+        "Asd ajsdhjafshjdfasda ajskd",
+        "ajskd Asd ajsdhjafshjdfasda",
+        "asd ajskd ajsdhjafshjdfasda"
+      ],
+      "id": "4a995864-ba37-48b5-aa42-a39f8aea3c57",
+      "mainBlocName": "oam"
+    },
+    {
+      "text": "d asjdh jasgdafsdhjasjh12g3j1h2g",
+      "simpleWrong": [
+        "ASJDH D JASGDAFSDHJASJH12G3J1H2G",
+        "asjdh d jasgdafsdhjasjh12g3j1h2g",
+        "asjdh jasgdafsdhjasjh12g3j1h2g D",
+        "asjdh D jasgdafsdhjasjh12g3j1h2g",
+        "d asjdh jasgdafsdhjasjh12g3j1h2g"
+      ],
+      "id": "ca29923e-f30d-4f92-808d-24c6c4ad1f17",
+      "mainBlocName": "oam"
+    },
+    {
+      "text": "asd kjasd gasd",
+      "simpleWrong": [
+        "ASD GASD KJASD",
+        "KJASD ASD GASD",
+        "GASD KJASD ASD",
+        "gasd kjasd asd",
+        "kjasd asd gasd",
+        "asd gasd kjasd",
+        "Asd gasd kjasd",
+        "asd kjasd gasd"
+      ],
+      "id": "20ff351c-ba15-48a8-9169-8329a1491fc3",
+      "mainBlocName": "oam"
+    }
+  ]
+}

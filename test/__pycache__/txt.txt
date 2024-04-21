@@ -1,0 +1,4 @@
+next update
+1 ask mode // redirect to main from few wrong intent (alternative mode)
+2 secunce limitition set  
+3 finish indicator // if requred (it is not sure) 

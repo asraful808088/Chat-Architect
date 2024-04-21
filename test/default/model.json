@@ -1,0 +1,429 @@
+[
+  {
+    "listOfIntent": [],
+    "listOfConditions": [],
+    "listOfResponses": [],
+    "storeConvIndex": [],
+    "id": "7ff254e2-8cfa-4a8f-9468-1490fcc6ec4d",
+    "type": "init",
+    "index": 0,
+    "prefixfunc": {
+      "name": "test",
+      "items": [
+        "hold",
+        "hold2"
+      ],
+      "setValue": "hold"
+    },
+    "nextConv": {
+      "listOfIntent": [],
+      "listOfConditions": [],
+      "listOfResponses": [],
+      "storeConvIndex": [
+        "7ff254e2-8cfa-4a8f-9468-1490fcc6ec4d"
+      ],
+      "id": "dfda721d-86c4-402c-80fa-45d1e183babd",
+      "type": "next-conversition",
+      "index": 1,
+      "prefixfunc": null,
+      "nextConv": {
+        "listOfIntent": [],
+        "listOfConditions": [],
+        "listOfResponses": [],
+        "storeConvIndex": [
+          "7ff254e2-8cfa-4a8f-9468-1490fcc6ec4d",
+          "dfda721d-86c4-402c-80fa-45d1e183babd"
+        ],
+        "id": "53b7ad47-055b-4ad5-83fb-18bd9fbe4548",
+        "type": "next-conversition",
+        "index": 2,
+        "prefixfunc": null,
+        "nextConv": {
+          "listOfIntent": [],
+          "listOfConditions": [],
+          "listOfResponses": [],
+          "storeConvIndex": [
+            "7ff254e2-8cfa-4a8f-9468-1490fcc6ec4d",
+            "dfda721d-86c4-402c-80fa-45d1e183babd",
+            "53b7ad47-055b-4ad5-83fb-18bd9fbe4548"
+          ],
+          "id": "ac9f458e-f8a0-4255-9f43-ad42928a6522",
+          "type": "next-conversition",
+          "index": 3,
+          "prefixfunc": null,
+          "nextConv": null,
+          "alterConv": [],
+          "defaultAlternative": null,
+          "conditionItems": {
+            "items": [],
+            "setValue": ""
+          },
+          "responseType": "default",
+          "intent": "know sutiotion",
+          "response": [
+            "exemples.action"
+          ],
+          "optionRes": [],
+          "sequence": true,
+          "preBuildAlternative": [],
+          "loopActive": {
+            "active": false,
+            "returnIndex": {
+              "colIndex": ""
+            }
+          }
+        },
+        "alterConv": [],
+        "defaultAlternative": null,
+        "conditionItems": {
+          "items": [],
+          "setValue": ""
+        },
+        "responseType": "default",
+        "intent": "give phone number ",
+        "response": [
+          "exemples.action"
+        ],
+        "optionRes": [],
+        "sequence": true,
+        "preBuildAlternative": [],
+        "loopActive": {
+          "active": false,
+          "returnIndex": {
+            "colIndex": ""
+          }
+        }
+      },
+      "alterConv": [],
+      "defaultAlternative": null,
+      "conditionItems": {
+        "items": [],
+        "setValue": ""
+      },
+      "responseType": "default",
+      "intent": "greets",
+      "response": [
+        "exemples.action"
+      ],
+      "optionRes": [],
+      "sequence": true,
+      "preBuildAlternative": [],
+      "loopActive": {
+        "active": false,
+        "returnIndex": {
+          "colIndex": ""
+        }
+      }
+    },
+    "alterConv": [
+      {
+        "listOfIntent": [],
+        "listOfConditions": [],
+        "listOfResponses": [],
+        "storeConvIndex": [],
+        "id": "4b0b752c-33cc-401e-96ed-bddfcc09ec1c",
+        "type": "alternative",
+        "index": 0,
+        "prefixfunc": {
+          "name": "test",
+          "setValue": "hold2"
+        },
+        "nextConv": null,
+        "alterConv": [],
+        "defaultAlternative": null,
+        "conditionItems": {
+          "items": [],
+          "setValue": ""
+        },
+        "responseType": "hold2",
+        "intent": "greets",
+        "response": [
+          "asda.response"
+        ],
+        "optionRes": [],
+        "sequence": true,
+        "preBuildAlternative": [],
+        "loopActive": {
+          "active": false,
+          "returnIndex": {
+            "colIndex": ""
+          }
+        }
+      }
+    ],
+    "defaultAlternative": null,
+    "conditionItems": {
+      "items": [
+        {
+          "value": "hold",
+          "loopActive": {
+            "active": false,
+            "returnIndex": {
+              "colIndex": ""
+            }
+          }
+        },
+        {
+          "value": "hold2",
+          "loopActive": {
+            "active": false,
+            "returnIndex": {
+              "colIndex": ""
+            }
+          }
+        }
+      ],
+      "setValue": "hold"
+    },
+    "responseType": "hold",
+    "intent": "greets",
+    "response": [],
+    "optionRes": [],
+    "sequence": true,
+    "preBuildAlternative": [
+      {
+        "type": {
+          "value": "hold",
+          "loopActive": {
+            "active": false,
+            "returnIndex": {
+              "colIndex": ""
+            }
+          }
+        },
+        "response": [
+          "asda.response"
+        ]
+      },
+      {
+        "type": {
+          "value": "hold2",
+          "loopActive": {
+            "active": false,
+            "returnIndex": {
+              "colIndex": ""
+            }
+          }
+        },
+        "response": [
+          "asda.response"
+        ]
+      }
+    ],
+    "loopActive": {
+      "active": false,
+      "returnIndex": {
+        "colIndex": ""
+      }
+    }
+  },
+  {
+    "listOfIntent": [],
+    "listOfConditions": [],
+    "listOfResponses": [],
+    "storeConvIndex": [],
+    "id": "3206d0f9-dfde-4f4d-aa00-c1c5ca1fbd83",
+    "type": "init",
+    "index": 0,
+    "prefixfunc": {
+      "name": "new",
+      "items": [
+        "ola",
+        "ola2",
+        "ol3"
+      ],
+      "setValue": "ola"
+    },
+    "nextConv": {
+      "listOfIntent": [],
+      "listOfConditions": [],
+      "listOfResponses": [],
+      "storeConvIndex": [
+        "3206d0f9-dfde-4f4d-aa00-c1c5ca1fbd83"
+      ],
+      "id": "deef5758-735f-42ff-837e-cce504500369",
+      "type": "next-conversition",
+      "index": 1,
+      "prefixfunc": null,
+      "nextConv": null,
+      "alterConv": [],
+      "defaultAlternative": null,
+      "conditionItems": {
+        "items": [],
+        "setValue": ""
+      },
+      "responseType": "default",
+      "intent": "greets",
+      "response": [
+        "exemples.action"
+      ],
+      "optionRes": [],
+      "sequence": true,
+      "preBuildAlternative": [],
+      "loopActive": {
+        "active": false,
+        "returnIndex": {
+          "colIndex": ""
+        }
+      }
+    },
+    "alterConv": [
+      {
+        "listOfIntent": [],
+        "listOfConditions": [],
+        "listOfResponses": [],
+        "storeConvIndex": [],
+        "id": "272d004e-82a7-4ec4-bc22-84ae49cb7f8b",
+        "type": "alternative",
+        "index": 0,
+        "prefixfunc": {
+          "name": "new",
+          "setValue": "ola2"
+        },
+        "nextConv": null,
+        "alterConv": [],
+        "defaultAlternative": null,
+        "conditionItems": {
+          "items": [],
+          "setValue": ""
+        },
+        "responseType": "ola2",
+        "intent": "conf.about",
+        "response": [
+          "exemples.action"
+        ],
+        "optionRes": [],
+        "sequence": true,
+        "preBuildAlternative": [],
+        "loopActive": {
+          "active": false,
+          "returnIndex": {
+            "colIndex": ""
+          }
+        }
+      },
+      {
+        "listOfIntent": [],
+        "listOfConditions": [],
+        "listOfResponses": [],
+        "storeConvIndex": [],
+        "id": "3cec77a1-adbe-4703-9ab4-b92c3d830c5c",
+        "type": "alternative",
+        "index": 0,
+        "prefixfunc": {
+          "name": "new",
+          "setValue": "ol3"
+        },
+        "nextConv": null,
+        "alterConv": [],
+        "defaultAlternative": null,
+        "conditionItems": {
+          "items": [],
+          "setValue": ""
+        },
+        "responseType": "ol3",
+        "intent": "conf.about",
+        "response": [
+          "exemples.action"
+        ],
+        "optionRes": [],
+        "sequence": true,
+        "preBuildAlternative": [],
+        "loopActive": {
+          "active": false,
+          "returnIndex": {
+            "colIndex": ""
+          }
+        }
+      }
+    ],
+    "defaultAlternative": null,
+    "conditionItems": {
+      "items": [
+        {
+          "value": "ola",
+          "loopActive": {
+            "active": false,
+            "returnIndex": {
+              "colIndex": ""
+            }
+          }
+        },
+        {
+          "value": "ola2",
+          "loopActive": {
+            "active": false,
+            "returnIndex": {
+              "colIndex": ""
+            }
+          }
+        },
+        {
+          "value": "ol3",
+          "loopActive": {
+            "active": false,
+            "returnIndex": {
+              "colIndex": ""
+            }
+          }
+        }
+      ],
+      "setValue": "ola"
+    },
+    "responseType": "ola",
+    "intent": "conf.about",
+    "response": [],
+    "optionRes": [],
+    "sequence": true,
+    "preBuildAlternative": [
+      {
+        "type": {
+          "value": "ola",
+          "loopActive": {
+            "active": false,
+            "returnIndex": {
+              "colIndex": ""
+            }
+          }
+        },
+        "response": [
+          "asda.response"
+        ]
+      },
+      {
+        "type": {
+          "value": "ola2",
+          "loopActive": {
+            "active": false,
+            "returnIndex": {
+              "colIndex": ""
+            }
+          }
+        },
+        "response": [
+          "exemples.action"
+        ]
+      },
+      {
+        "type": {
+          "value": "ol3",
+          "loopActive": {
+            "active": false,
+            "returnIndex": {
+              "colIndex": ""
+            }
+          }
+        },
+        "response": [
+          "exemples.action"
+        ]
+      }
+    ],
+    "loopActive": {
+      "active": false,
+      "returnIndex": {
+        "colIndex": ""
+      }
+    }
+  }
+]

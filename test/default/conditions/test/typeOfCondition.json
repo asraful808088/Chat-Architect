@@ -1,0 +1,10 @@
+{
+  "name": "test",
+  "des": "this is for testing",
+  "multiType": [
+    "hold",
+    "hold2"
+  ],
+  "binaryType": true,
+  "setValue": "hold"
+}

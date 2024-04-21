@@ -1,0 +1,126 @@
+{
+  "name": "fullWrong.oam",
+  "des": "des-fullWrong",
+  "items": [
+    {
+      "text": "this IS my omasd ajhsdv asd asdvasd",
+      "fullWrong": [
+        "ASD AJHSDV OMASD ASDVASD THIS MY IS",
+        "ASD AJHSDV ASDVASD THIS IS OMASD MY",
+        "ASDVASD MY AJHSDV ASD THIS IS OMASD",
+        "IS AJHSDV ASDVASD OMASD ASD THIS MY",
+        "AJHSDV ASD OMASD MY ASDVASD THIS IS",
+        "OMASD ASDVASD ASD AJHSDV THIS IS MY",
+        "AJHSDV ASD OMASD IS ASDVASD THIS MY",
+        "ASD ASDVASD OMASD AJHSDV THIS IS MY",
+        "AJHSDV OMASD ASDVASD THIS MY ASD IS",
+        "AJHSDV ASD IS ASDVASD OMASD THIS MY",
+        "ASDVASD AJHSDV OMASD ASD THIS IS MY",
+        "OMASD ASDVASD AJHSDV THIS ASD MY IS",
+        "ASDVASD ASD IS OMASD AJHSDV THIS MY",
+        "AJHSDV ASDVASD MY OMASD ASD THIS IS",
+        "ASD OMASD ASDVASD AJHSDV THIS MY IS",
+        "ASDVASD MY OMASD AJHSDV IS ASD THIS",
+        "AJHSDV ASD IS ASDVASD THIS OMASD MY",
+        "ASDVASD IS ASD AJHSDV OMASD THIS MY",
+        "AJHSDV OMASD ASDVASD THIS IS MY ASD",
+        "ajhsdv is asdvasd omasd asd this my",
+        "asdvasd omasd asd ajhsdv my is this",
+        "ajhsdv asd omasd asdvasd this my is",
+        "asd omasd asdvasd ajhsdv this is my",
+        "asd ajhsdv asdvasd is omasd this my",
+        "ajhsdv asdvasd omasd this asd is my",
+        "ajhsdv asdvasd asd my omasd this is",
+        "ajhsdv is asdvasd asd this my omasd",
+        "ajhsdv asd omasd asdvasd my is this",
+        "omasd asdvasd ajhsdv asd is this my",
+        "asdvasd my omasd ajhsdv this asd is",
+        "ajhsdv asd omasd asdvasd this is my",
+        "asdvasd omasd asd ajhsdv my this is",
+        "ajhsdv my asdvasd this is asd omasd",
+        "asdvasd is ajhsdv omasd this asd my",
+        "ajhsdv asd omasd asdvasd my this is",
+        "ajhsdv asd is asdvasd this my omasd",
+        "ajhsdv asdvasd omasd asd this my is",
+        "ajhsdv omasd asd asdvasd this my is",
+        "asdvasd asd my ajhsdv this is omasd",
+        "ajhsdv asd asdvasd is omasd This my",
+        "omasd asdvasd is asd This ajhsdv my",
+        "asd asdvasd omasd ajhsdv This my is",
+        "ajhsdv asd asdvasd is This omasd my",
+        "ajhsdv asd asdvasd my is This omasd",
+        "ajhsdv asdvasd is asd This my omasd",
+        "ajhsdv asdvasd my asd is This omasd",
+        "ajhsdv asdvasd is omasd This asd my",
+        "ajhsdv omasd asd asdvasd This my is",
+        "ajhsdv omasd asd is asdvasd This my",
+        "ajhsdv is asdvasd omasd asd my This",
+        "ajhsdv is asdvasd This asd my omasd",
+        "ajhsdv asd omasd my asdvasd This is",
+        "omasd is asd asdvasd This ajhsdv my",
+        "omasd asdvasd ajhsdv asd is This my",
+        "ajhsdv asd omasd my asdvasd is This",
+        "ajhsdv omasd asdvasd asd This my is",
+        "ajhsdv asdvasd is asd omasd my This",
+        "ajhsdv is asdvasd omasd This asd my"
+      ],
+      "id": "400f3325-959d-49bb-8799-8c75f4032ccc",
+      "mainBlocName": "oam"
+    },
+    {
+      "text": "asdjk ahsjdghjasda",
+      "fullWrong": [],
+      "id": "3b5279c8-8e70-494a-8de9-ab8862579568",
+      "mainBlocName": "oam"
+    },
+    {
+      "text": "sdbdh jasgdhjasg dhjasd a",
+      "fullWrong": [],
+      "id": "4dadca80-59dd-40d3-a9b5-1b23bbca4ad7",
+      "mainBlocName": "oam"
+    },
+    {
+      "text": "sda sjhdasjdghasdhj132hg123",
+      "fullWrong": [],
+      "id": "fa9ef35d-d440-4d75-906e-6ad429b6cac2",
+      "mainBlocName": "oam"
+    },
+    {
+      "text": "\\as dhajsdgajhsdgasd",
+      "fullWrong": [],
+      "id": "1113ee8e-f7eb-4c78-8eb0-90c9278d8b01",
+      "mainBlocName": "oam"
+    },
+    {
+      "text": "1231 hjghjasgdahsdasd",
+      "fullWrong": [],
+      "id": "f539cc1a-04fb-4713-ac16-5558a71d3829",
+      "mainBlocName": "oam"
+    },
+    {
+      "text": "asdkj hajsdgajhsdghjasgdhjasd",
+      "fullWrong": [],
+      "id": "cb3d38f2-780f-4519-9de6-8a7f97995140",
+      "mainBlocName": "oam"
+    },
+    {
+      "text": "asd ajskd ajsdhjafshjdfasda",
+      "fullWrong": [],
+      "id": "4a995864-ba37-48b5-aa42-a39f8aea3c57",
+      "mainBlocName": "oam"
+    },
+    {
+      "text": "d asjdh jasgdafsdhjasjh12g3j1h2g",
+      "fullWrong": [],
+      "id": "ca29923e-f30d-4f92-808d-24c6c4ad1f17",
+      "mainBlocName": "oam"
+    },
+    {
+      "text": "asd kjasd gasd",
+      "fullWrong": [],
+      "id": "20ff351c-ba15-48a8-9169-8329a1491fc3",
+      "mainBlocName": "oam"
+    }
+  ],
+  "option": {}
+}

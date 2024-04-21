@@ -1,0 +1,19 @@
+{
+  "name": "syncx",
+  "des": "this is create for processing ",
+  "items": [
+    {
+      "name": "name",
+      "items": [
+        "name1",
+        "name2"
+      ]
+    },
+    {
+      "name": "kala",
+      "items": [
+        "pop"
+      ]
+    }
+  ]
+}

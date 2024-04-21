@@ -1,0 +1,11 @@
+{
+  "name": "new",
+  "des": "new ",
+  "multiType": [
+    "ola",
+    "ola2",
+    "ol3"
+  ],
+  "binaryType": true,
+  "setValue": "ola"
+}

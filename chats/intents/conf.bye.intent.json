@@ -1,0 +1,67 @@
+{
+  "name": "conf.bye",
+  "des": "des-conf",
+  "items": [
+    {
+      "text": "bye",
+      "confWrong": [],
+      "id": "72bd4aef-8fbc-46e1-8a61-e5c60a4e6bd3",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "see leter",
+      "confWrong": [],
+      "id": "857bc326-8a13-4603-8f5b-a17c631dc208",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye man",
+      "confWrong": [],
+      "id": "76a63b0a-3b01-43f7-9993-c3a75a00ebde",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye women",
+      "confWrong": [],
+      "id": "90dbc35b-36a2-49f9-a8c8-93539bd0ffc8",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye bot",
+      "confWrong": [],
+      "id": "d8a9658a-f798-4e4a-9207-015499391418",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "bye ai",
+      "confWrong": [],
+      "id": "f982de9b-6c51-4f5c-a487-e11f44c41f6b",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "good bye",
+      "confWrong": [],
+      "id": "80811b77-d748-4ad4-824c-7d0f06896208",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Tata man",
+      "confWrong": [],
+      "id": "cbc6ba73-54de-458c-8391-24d18af2a520",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Tata Bot",
+      "confWrong": [],
+      "id": "5665447a-f8be-4e33-a2d4-f814bbb5920c",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye yoyo",
+      "confWrong": [],
+      "id": "1e252073-326c-4c1d-8026-a0f01453fa54",
+      "mainBlocName": "bye"
+    }
+  ],
+  "option": {}
+}

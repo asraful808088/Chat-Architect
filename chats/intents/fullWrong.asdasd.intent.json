@@ -1,0 +1,92 @@
+{
+  "name": "fullWrong.asdasd",
+  "des": "des-fullWrong",
+  "items": [
+    {
+      "text": "asdasdasdsadasd",
+      "fullWrong": [],
+      "id": "adc77a2b-4df7-4521-9a88-b90e74c35957",
+      "mainBlocName": "asdasd"
+    },
+    {
+      "text": "asdasdasd12312312",
+      "fullWrong": [],
+      "id": "d854530a-c1f7-4eed-adbc-97ce11963c52",
+      "mainBlocName": "asdasd"
+    },
+    {
+      "text": "ht is iia basdkja asd ahnjsdkasd",
+      "fullWrong": [
+        "ASD AHNJSDKASD BASDKJA IS HT IIA",
+        "AHNJSDKASD ASD BASDKJA IIA IS HT",
+        "AHNJSDKASD BASDKJA ASD IIA IS HT",
+        "AHNJSDKASD BASDKJA ASD HT IS IIA",
+        "AHNJSDKASD BASDKJA ASD HT IIA IS",
+        "ASD AHNJSDKASD BASDKJA IIA HT IS",
+        "ASD AHNJSDKASD BASDKJA HT IS IIA",
+        "AHNJSDKASD ASD BASDKJA HT IS IIA",
+        "AHNJSDKASD BASDKJA HT ASD IS IIA",
+        "AHNJSDKASD ASD BASDKJA IS HT IIA",
+        "AHNJSDKASD BASDKJA HT IIA ASD IS",
+        "AHNJSDKASD BASDKJA IS HT ASD IIA",
+        "AHNJSDKASD BASDKJA ASD IS IIA HT",
+        "AHNJSDKASD BASDKJA HT IS ASD IIA",
+        "AHNJSDKASD BASDKJA ASD IS HT IIA",
+        "asd ahnjsdkasd ht basdkja is iia",
+        "ahnjsdkasd basdkja asd iia ht is",
+        "ahnjsdkasd asd basdkja ht is iia",
+        "asd ahnjsdkasd is basdkja ht iia",
+        "ahnjsdkasd basdkja asd is ht iia",
+        "ahnjsdkasd asd basdkja iia ht is",
+        "ahnjsdkasd basdkja ht is asd iia",
+        "ahnjsdkasd basdkja ht iia asd is",
+        "ahnjsdkasd basdkja asd ht is iia",
+        "ahnjsdkasd asd basdkja is ht iia",
+        "ahnjsdkasd basdkja is ht asd iia",
+        "asd ahnjsdkasd basdkja iia is ht",
+        "is asd basdkja ahnjsdkasd ht iia",
+        "ahnjsdkasd asd basdkja iia is ht",
+        "asd ahnjsdkasd Ht basdkja iia is",
+        "ahnjsdkasd basdkja Ht iia is asd",
+        "asd ahnjsdkasd is basdkja Ht iia",
+        "ahnjsdkasd is asd Ht basdkja iia",
+        "ahnjsdkasd basdkja asd Ht is iia",
+        "is ahnjsdkasd basdkja Ht asd iia",
+        "asd ahnjsdkasd basdkja iia Ht is",
+        "asd ahnjsdkasd is Ht basdkja iia",
+        "ahnjsdkasd Ht asd basdkja is iia",
+        "ahnjsdkasd is asd basdkja iia Ht",
+        "ahnjsdkasd basdkja is Ht iia asd",
+        "asd basdkja ahnjsdkasd iia Ht is",
+        "asd basdkja ahnjsdkasd iia is Ht",
+        "asd basdkja ahnjsdkasd is Ht iia",
+        "is ahnjsdkasd basdkja asd Ht iia",
+        "ahnjsdkasd basdkja is asd iia Ht",
+        "ahnjsdkasd basdkja asd Ht iia is",
+        "asd ahnjsdkasd basdkja is Ht iia",
+        "asd ahnjsdkasd iia basdkja is Ht"
+      ],
+      "id": "4be759d6-39cf-4356-91bd-7ea86923fc04",
+      "mainBlocName": "asdasd"
+    },
+    {
+      "text": "asbd kj  lkaj;dasd a asdl jaskl;d",
+      "fullWrong": [],
+      "id": "f53dd99e-8566-4ee5-a2f0-83cedb3c5756",
+      "mainBlocName": "asdasd"
+    },
+    {
+      "text": "as dkjh asd asda danhdslk adsa dsasdlk ja;dad asdkla",
+      "fullWrong": [],
+      "id": "57db99d9-9684-4e9a-9484-8f2131de84aa",
+      "mainBlocName": "asdasd"
+    },
+    {
+      "text": "ad kjashdas ;sdasd   alksdajsdasmd,a asd ljl;asd",
+      "fullWrong": [],
+      "id": "13080521-bee0-415c-8778-a800e0b81299",
+      "mainBlocName": "asdasd"
+    }
+  ],
+  "option": {}
+}

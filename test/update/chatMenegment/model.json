@@ -1,0 +1,806 @@
+[
+  {
+    "listOfIntent": [],
+    "listOfConditions": [],
+    "listOfResponses": [],
+    "storeConvIndex": [],
+    "id": "742b3d2c-c3d5-406b-bc0c-859207d551aa",
+    "type": "init",
+    "index": 0,
+    "prefixfunc": null,
+    "nextConv": {
+      "listOfIntent": [],
+      "listOfConditions": [],
+      "listOfResponses": [],
+      "storeConvIndex": [
+        "742b3d2c-c3d5-406b-bc0c-859207d551aa"
+      ],
+      "underOf": "init",
+      "id": "6435c871-43d2-4ca0-8f7b-8c5520b9c387",
+      "type": "next-conversition",
+      "index": 1,
+      "prefixfunc": null,
+      "nextConv": {
+        "listOfIntent": [],
+        "listOfConditions": [],
+        "listOfResponses": [],
+        "storeConvIndex": [
+          "742b3d2c-c3d5-406b-bc0c-859207d551aa",
+          "6435c871-43d2-4ca0-8f7b-8c5520b9c387"
+        ],
+        "underOf": "next-conversition",
+        "id": "5b750020-4bf7-48af-8041-9bca8be82b04",
+        "type": "next-conversition",
+        "index": 2,
+        "prefixfunc": null,
+        "nextConv": null,
+        "alterConv": [
+          {
+            "listOfIntent": [],
+            "listOfConditions": [],
+            "listOfResponses": [],
+            "storeConvIndex": [
+              "742b3d2c-c3d5-406b-bc0c-859207d551aa",
+              "6435c871-43d2-4ca0-8f7b-8c5520b9c387"
+            ],
+            "underOf": "",
+            "id": "1320ef3c-ecb3-4311-adef-0d8418f05e22",
+            "type": "break topic",
+            "index": 2,
+            "prefixfunc": {
+              "name": "test",
+              "items": [
+                "hold",
+                "hold2"
+              ],
+              "setValue": "hold"
+            },
+            "nextConv": {
+              "listOfIntent": [],
+              "listOfConditions": [],
+              "listOfResponses": [],
+              "storeConvIndex": [
+                "742b3d2c-c3d5-406b-bc0c-859207d551aa",
+                "6435c871-43d2-4ca0-8f7b-8c5520b9c387",
+                "1320ef3c-ecb3-4311-adef-0d8418f05e22"
+              ],
+              "underOf": "break topic",
+              "id": "af2b8aa3-1964-4a87-8f2b-f748bb813367",
+              "type": "next-conversition",
+              "index": 3,
+              "prefixfunc": null,
+              "nextConv": null,
+              "alterConv": [],
+              "defaultAlternative": null,
+              "conditionItems": {
+                "items": [],
+                "setValue": ""
+              },
+              "responseType": "default",
+              "intent": null,
+              "response": [],
+              "optionRes": [],
+              "sequence": true,
+              "preBuildAlternative": [],
+              "loopActive": {
+                "active": false,
+                "returnIndex": {
+                  "colIndex": ""
+                }
+              }
+            },
+            "alterConv": [
+              {
+                "listOfIntent": [],
+                "listOfConditions": [],
+                "listOfResponses": [],
+                "storeConvIndex": [
+                  "742b3d2c-c3d5-406b-bc0c-859207d551aa",
+                  "6435c871-43d2-4ca0-8f7b-8c5520b9c387"
+                ],
+                "underOf": "break topic",
+                "id": "f3dfc3e5-64d1-459e-8377-dc10a0fd8ab0",
+                "type": "alternative",
+                "index": 2,
+                "prefixfunc": {
+                  "name": "test",
+                  "setValue": "hold2"
+                },
+                "nextConv": {
+                  "listOfIntent": [],
+                  "listOfConditions": [],
+                  "listOfResponses": [],
+                  "storeConvIndex": [
+                    "742b3d2c-c3d5-406b-bc0c-859207d551aa",
+                    "6435c871-43d2-4ca0-8f7b-8c5520b9c387",
+                    "f3dfc3e5-64d1-459e-8377-dc10a0fd8ab0"
+                  ],
+                  "underOf": "break topic",
+                  "id": "8e7e01d7-ac61-41d6-87ca-820f802d3329",
+                  "type": "next-conversition",
+                  "index": 3,
+                  "prefixfunc": null,
+                  "nextConv": {
+                    "listOfIntent": [],
+                    "listOfConditions": [],
+                    "listOfResponses": [],
+                    "storeConvIndex": [
+                      "742b3d2c-c3d5-406b-bc0c-859207d551aa",
+                      "6435c871-43d2-4ca0-8f7b-8c5520b9c387",
+                      "f3dfc3e5-64d1-459e-8377-dc10a0fd8ab0",
+                      "8e7e01d7-ac61-41d6-87ca-820f802d3329"
+                    ],
+                    "underOf": "break topic",
+                    "id": "cc4d505d-d7e0-438d-bf99-46f1b34fe7b8",
+                    "type": "next-conversition",
+                    "index": 4,
+                    "prefixfunc": null,
+                    "nextConv": {
+                      "listOfIntent": [],
+                      "listOfConditions": [],
+                      "listOfResponses": [],
+                      "storeConvIndex": [
+                        "742b3d2c-c3d5-406b-bc0c-859207d551aa",
+                        "6435c871-43d2-4ca0-8f7b-8c5520b9c387",
+                        "f3dfc3e5-64d1-459e-8377-dc10a0fd8ab0",
+                        "8e7e01d7-ac61-41d6-87ca-820f802d3329",
+                        "cc4d505d-d7e0-438d-bf99-46f1b34fe7b8"
+                      ],
+                      "underOf": "break topic",
+                      "id": "35b76792-559c-4c7c-b685-349d03bc8464",
+                      "type": "next-conversition",
+                      "index": 5,
+                      "prefixfunc": null,
+                      "nextConv": null,
+                      "alterConv": [
+                        {
+                          "listOfIntent": [],
+                          "listOfConditions": [],
+                          "listOfResponses": [],
+                          "storeConvIndex": [
+                            "742b3d2c-c3d5-406b-bc0c-859207d551aa",
+                            "6435c871-43d2-4ca0-8f7b-8c5520b9c387",
+                            "f3dfc3e5-64d1-459e-8377-dc10a0fd8ab0",
+                            "8e7e01d7-ac61-41d6-87ca-820f802d3329",
+                            "cc4d505d-d7e0-438d-bf99-46f1b34fe7b8"
+                          ],
+                          "underOf": "break topic",
+                          "id": "8400ac1e-47ed-4e8c-900a-d2a598e0ed03",
+                          "type": "new alternative",
+                          "index": 5,
+                          "prefixfunc": null,
+                          "nextConv": {
+                            "listOfIntent": [],
+                            "listOfConditions": [],
+                            "listOfResponses": [],
+                            "storeConvIndex": [
+                              "742b3d2c-c3d5-406b-bc0c-859207d551aa",
+                              "6435c871-43d2-4ca0-8f7b-8c5520b9c387",
+                              "f3dfc3e5-64d1-459e-8377-dc10a0fd8ab0",
+                              "8e7e01d7-ac61-41d6-87ca-820f802d3329",
+                              "cc4d505d-d7e0-438d-bf99-46f1b34fe7b8",
+                              "8400ac1e-47ed-4e8c-900a-d2a598e0ed03"
+                            ],
+                            "underOf": "break topic",
+                            "id": "579c43e5-e570-48a5-8b44-cbc46f4132f6",
+                            "type": "next-conversition",
+                            "index": 6,
+                            "prefixfunc": {
+                              "name": "test",
+                              "items": [
+                                "hold",
+                                "hold2"
+                              ],
+                              "setValue": "hold"
+                            },
+                            "nextConv": null,
+                            "alterConv": [
+                              {
+                                "listOfIntent": [],
+                                "listOfConditions": [],
+                                "listOfResponses": [],
+                                "storeConvIndex": [
+                                  "742b3d2c-c3d5-406b-bc0c-859207d551aa",
+                                  "6435c871-43d2-4ca0-8f7b-8c5520b9c387",
+                                  "f3dfc3e5-64d1-459e-8377-dc10a0fd8ab0",
+                                  "8e7e01d7-ac61-41d6-87ca-820f802d3329",
+                                  "cc4d505d-d7e0-438d-bf99-46f1b34fe7b8",
+                                  "8400ac1e-47ed-4e8c-900a-d2a598e0ed03"
+                                ],
+                                "underOf": "break topic",
+                                "id": "b5bb8a9e-f4dc-46bd-be9d-dcb0dab470fc",
+                                "type": "alternative",
+                                "index": 6,
+                                "prefixfunc": {
+                                  "name": "test",
+                                  "setValue": "hold2"
+                                },
+                                "nextConv": {
+                                  "listOfIntent": [],
+                                  "listOfConditions": [],
+                                  "listOfResponses": [],
+                                  "storeConvIndex": [
+                                    "742b3d2c-c3d5-406b-bc0c-859207d551aa",
+                                    "6435c871-43d2-4ca0-8f7b-8c5520b9c387",
+                                    "f3dfc3e5-64d1-459e-8377-dc10a0fd8ab0",
+                                    "8e7e01d7-ac61-41d6-87ca-820f802d3329",
+                                    "cc4d505d-d7e0-438d-bf99-46f1b34fe7b8",
+                                    "8400ac1e-47ed-4e8c-900a-d2a598e0ed03",
+                                    "b5bb8a9e-f4dc-46bd-be9d-dcb0dab470fc"
+                                  ],
+                                  "underOf": "break topic",
+                                  "id": "cab8f967-db19-4fa9-8cd3-065b4d217c03",
+                                  "type": "next-conversition",
+                                  "index": 7,
+                                  "prefixfunc": {
+                                    "name": "test",
+                                    "items": [
+                                      "hold",
+                                      "hold2"
+                                    ],
+                                    "setValue": "hold"
+                                  },
+                                  "nextConv": null,
+                                  "alterConv": [
+                                    {
+                                      "listOfIntent": [],
+                                      "listOfConditions": [],
+                                      "listOfResponses": [],
+                                      "storeConvIndex": [
+                                        "742b3d2c-c3d5-406b-bc0c-859207d551aa",
+                                        "6435c871-43d2-4ca0-8f7b-8c5520b9c387",
+                                        "f3dfc3e5-64d1-459e-8377-dc10a0fd8ab0",
+                                        "8e7e01d7-ac61-41d6-87ca-820f802d3329",
+                                        "cc4d505d-d7e0-438d-bf99-46f1b34fe7b8",
+                                        "8400ac1e-47ed-4e8c-900a-d2a598e0ed03",
+                                        "b5bb8a9e-f4dc-46bd-be9d-dcb0dab470fc"
+                                      ],
+                                      "underOf": "break topic",
+                                      "id": "e13dcace-b50f-4526-92e4-c12a6aecc3c4",
+                                      "type": "alternative",
+                                      "index": 7,
+                                      "prefixfunc": {
+                                        "name": "test",
+                                        "setValue": "hold2"
+                                      },
+                                      "nextConv": null,
+                                      "alterConv": [],
+                                      "defaultAlternative": null,
+                                      "conditionItems": {
+                                        "items": [],
+                                        "setValue": ""
+                                      },
+                                      "responseType": "hold2",
+                                      "intent": "oam",
+                                      "response": [
+                                        "exemples.action"
+                                      ],
+                                      "optionRes": [],
+                                      "sequence": true,
+                                      "preBuildAlternative": [],
+                                      "loopActive": {
+                                        "active": true,
+                                        "returnIndex": {
+                                          "colIndex": "any"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "defaultAlternative": null,
+                                  "conditionItems": {
+                                    "items": [
+                                      {
+                                        "value": "hold",
+                                        "loopActive": {
+                                          "active": true,
+                                          "returnIndex": {
+                                            "colIndex": ""
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "value": "hold2",
+                                        "loopActive": {
+                                          "active": true,
+                                          "returnIndex": {
+                                            "colIndex": "any"
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "setValue": "hold"
+                                  },
+                                  "responseType": "hold",
+                                  "intent": "oam",
+                                  "response": [],
+                                  "optionRes": [],
+                                  "sequence": true,
+                                  "preBuildAlternative": [
+                                    {
+                                      "type": {
+                                        "value": "hold2",
+                                        "loopActive": {
+                                          "active": true,
+                                          "returnIndex": {
+                                            "colIndex": "any"
+                                          }
+                                        }
+                                      },
+                                      "response": [
+                                        "exemples.action"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "hold",
+                                        "loopActive": {
+                                          "active": true,
+                                          "returnIndex": {
+                                            "colIndex": ""
+                                          }
+                                        }
+                                      },
+                                      "response": [
+                                        "test2.response"
+                                      ]
+                                    }
+                                  ],
+                                  "loopActive": {
+                                    "active": false,
+                                    "returnIndex": {
+                                      "colIndex": ""
+                                    }
+                                  }
+                                },
+                                "alterConv": [],
+                                "defaultAlternative": null,
+                                "conditionItems": {
+                                  "items": [],
+                                  "setValue": ""
+                                },
+                                "responseType": "hold2",
+                                "intent": "oam",
+                                "response": [
+                                  "test4.response"
+                                ],
+                                "optionRes": [],
+                                "sequence": true,
+                                "preBuildAlternative": [],
+                                "loopActive": {
+                                  "active": false,
+                                  "returnIndex": {
+                                    "colIndex": ""
+                                  }
+                                }
+                              }
+                            ],
+                            "defaultAlternative": null,
+                            "conditionItems": {
+                              "items": [
+                                {
+                                  "value": "hold",
+                                  "loopActive": {
+                                    "active": false,
+                                    "returnIndex": {
+                                      "colIndex": ""
+                                    }
+                                  }
+                                },
+                                {
+                                  "value": "hold2",
+                                  "loopActive": {
+                                    "active": false,
+                                    "returnIndex": {
+                                      "colIndex": ""
+                                    }
+                                  }
+                                }
+                              ],
+                              "setValue": "hold"
+                            },
+                            "responseType": "hold",
+                            "intent": "oam",
+                            "response": [],
+                            "optionRes": [],
+                            "sequence": true,
+                            "preBuildAlternative": [
+                              {
+                                "type": {
+                                  "value": "hold",
+                                  "loopActive": {
+                                    "active": false,
+                                    "returnIndex": {
+                                      "colIndex": ""
+                                    }
+                                  }
+                                },
+                                "response": [
+                                  "test2.response"
+                                ]
+                              },
+                              {
+                                "type": {
+                                  "value": "hold2",
+                                  "loopActive": {
+                                    "active": false,
+                                    "returnIndex": {
+                                      "colIndex": ""
+                                    }
+                                  }
+                                },
+                                "response": [
+                                  "test4.response"
+                                ]
+                              }
+                            ],
+                            "loopActive": {
+                              "active": false,
+                              "returnIndex": {
+                                "colIndex": ""
+                              }
+                            }
+                          },
+                          "alterConv": [],
+                          "defaultAlternative": null,
+                          "conditionItems": {
+                            "items": [],
+                            "setValue": ""
+                          },
+                          "responseType": "default",
+                          "intent": "oam",
+                          "response": [
+                            "test3.response"
+                          ],
+                          "optionRes": [],
+                          "sequence": true,
+                          "preBuildAlternative": [],
+                          "loopActive": {
+                            "active": false,
+                            "returnIndex": {
+                              "colIndex": ""
+                            }
+                          }
+                        }
+                      ],
+                      "defaultAlternative": null,
+                      "conditionItems": {
+                        "items": [],
+                        "setValue": ""
+                      },
+                      "responseType": "default",
+                      "intent": "conf.asdasd",
+                      "response": [
+                        "test4.response"
+                      ],
+                      "optionRes": [],
+                      "sequence": true,
+                      "preBuildAlternative": [],
+                      "loopActive": {
+                        "active": false,
+                        "returnIndex": {
+                          "colIndex": ""
+                        }
+                      }
+                    },
+                    "alterConv": [],
+                    "defaultAlternative": null,
+                    "conditionItems": {
+                      "items": [],
+                      "setValue": ""
+                    },
+                    "responseType": "default",
+                    "intent": "asdasd123123",
+                    "response": [
+                      "exemples.action"
+                    ],
+                    "optionRes": [],
+                    "sequence": true,
+                    "preBuildAlternative": [],
+                    "loopActive": {
+                      "active": false,
+                      "returnIndex": {
+                        "colIndex": ""
+                      }
+                    }
+                  },
+                  "alterConv": [],
+                  "defaultAlternative": null,
+                  "conditionItems": {
+                    "items": [],
+                    "setValue": ""
+                  },
+                  "responseType": "default",
+                  "intent": "conf.asdasd",
+                  "response": [
+                    "test4.response"
+                  ],
+                  "optionRes": [],
+                  "sequence": true,
+                  "preBuildAlternative": [],
+                  "loopActive": {
+                    "active": false,
+                    "returnIndex": {
+                      "colIndex": ""
+                    }
+                  }
+                },
+                "alterConv": [],
+                "defaultAlternative": null,
+                "conditionItems": {
+                  "items": [],
+                  "setValue": ""
+                },
+                "responseType": "hold2",
+                "intent": "any",
+                "response": [
+                  "test4.response"
+                ],
+                "optionRes": [],
+                "sequence": true,
+                "preBuildAlternative": [],
+                "loopActive": {
+                  "active": false,
+                  "returnIndex": {
+                    "colIndex": "any"
+                  }
+                }
+              }
+            ],
+            "defaultAlternative": null,
+            "conditionItems": {
+              "items": [
+                {
+                  "value": "hold",
+                  "loopActive": {
+                    "active": false,
+                    "returnIndex": {
+                      "colIndex": "any"
+                    }
+                  }
+                },
+                {
+                  "value": "hold2",
+                  "loopActive": {
+                    "active": false,
+                    "returnIndex": {
+                      "colIndex": "any"
+                    }
+                  }
+                }
+              ],
+              "setValue": "hold"
+            },
+            "responseType": "hold",
+            "intent": "any",
+            "response": [],
+            "optionRes": [],
+            "sequence": true,
+            "preBuildAlternative": [
+              {
+                "type": {
+                  "value": "hold",
+                  "loopActive": {
+                    "active": false,
+                    "returnIndex": {
+                      "colIndex": ""
+                    }
+                  }
+                },
+                "response": [
+                  "test3.response"
+                ]
+              },
+              {
+                "type": {
+                  "value": "hold2",
+                  "loopActive": {
+                    "active": false,
+                    "returnIndex": {
+                      "colIndex": ""
+                    }
+                  }
+                },
+                "response": [
+                  "test4.response"
+                ]
+              }
+            ],
+            "loopActive": {
+              "active": false,
+              "returnIndex": {
+                "colIndex": ""
+              }
+            }
+          }
+        ],
+        "defaultAlternative": null,
+        "conditionItems": {
+          "items": [],
+          "setValue": ""
+        },
+        "responseType": "default",
+        "intent": "conf.bye",
+        "response": [
+          "test4.response"
+        ],
+        "optionRes": [],
+        "sequence": true,
+        "preBuildAlternative": [],
+        "loopActive": {
+          "active": false,
+          "returnIndex": {
+            "colIndex": ""
+          }
+        }
+      },
+      "alterConv": [],
+      "defaultAlternative": null,
+      "conditionItems": {
+        "items": [],
+        "setValue": ""
+      },
+      "responseType": "default",
+      "intent": "oam",
+      "response": [
+        "test3.response"
+      ],
+      "optionRes": [],
+      "sequence": true,
+      "preBuildAlternative": [],
+      "loopActive": {
+        "active": false,
+        "returnIndex": {
+          "colIndex": ""
+        }
+      }
+    },
+    "alterConv": [],
+    "defaultAlternative": null,
+    "conditionItems": {
+      "items": [],
+      "setValue": ""
+    },
+    "responseType": "default",
+    "intent": "asdasd",
+    "response": [
+      "test2.response"
+    ],
+    "optionRes": [],
+    "sequence": true,
+    "preBuildAlternative": [],
+    "loopActive": {
+      "active": false,
+      "returnIndex": {
+        "colIndex": ""
+      }
+    }
+  },
+  {
+    "listOfIntent": [],
+    "listOfConditions": [],
+    "listOfResponses": [],
+    "storeConvIndex": [],
+    "id": "261df866-4545-49e2-863a-a79dbb327f33",
+    "type": "init",
+    "index": 0,
+    "prefixfunc": null,
+    "nextConv": {
+      "listOfIntent": [],
+      "listOfConditions": [],
+      "listOfResponses": [],
+      "storeConvIndex": [
+        "261df866-4545-49e2-863a-a79dbb327f33"
+      ],
+      "underOf": "init",
+      "id": "962bb7e6-a94a-4067-8fcd-1442880d05b0",
+      "type": "next-conversition",
+      "index": 1,
+      "prefixfunc": null,
+      "nextConv": null,
+      "alterConv": [],
+      "defaultAlternative": null,
+      "conditionItems": {
+        "items": [],
+        "setValue": ""
+      },
+      "responseType": "default",
+      "intent": "conf.asdasd",
+      "response": [
+        "test1.response"
+      ],
+      "optionRes": [],
+      "sequence": true,
+      "preBuildAlternative": [],
+      "loopActive": {
+        "active": false,
+        "returnIndex": {
+          "colIndex": ""
+        }
+      }
+    },
+    "alterConv": [],
+    "defaultAlternative": null,
+    "conditionItems": {
+      "items": [],
+      "setValue": ""
+    },
+    "responseType": "default",
+    "intent": "oam",
+    "response": [
+      "test4.response"
+    ],
+    "optionRes": [],
+    "sequence": true,
+    "preBuildAlternative": [],
+    "loopActive": {
+      "active": false,
+      "returnIndex": {
+        "colIndex": ""
+      }
+    }
+  },
+  {
+    "listOfIntent": [],
+    "listOfConditions": [],
+    "listOfResponses": [],
+    "storeConvIndex": [],
+    "id": "03b13df1-0925-472f-b7ad-91aba3aed375",
+    "type": "init",
+    "index": 0,
+    "prefixfunc": null,
+    "nextConv": {
+      "listOfIntent": [],
+      "listOfConditions": [],
+      "listOfResponses": [],
+      "storeConvIndex": [
+        "03b13df1-0925-472f-b7ad-91aba3aed375"
+      ],
+      "underOf": "init",
+      "id": "4088d435-4bd4-4962-be1b-56f6a218c918",
+      "type": "next-conversition",
+      "index": 1,
+      "prefixfunc": null,
+      "nextConv": null,
+      "alterConv": [],
+      "defaultAlternative": null,
+      "conditionItems": {
+        "items": [],
+        "setValue": ""
+      },
+      "responseType": "default",
+      "intent": "conf.bye",
+      "response": [
+        "test4.response"
+      ],
+      "optionRes": [],
+      "sequence": true,
+      "preBuildAlternative": [],
+      "loopActive": {
+        "active": false,
+        "returnIndex": {
+          "colIndex": ""
+        }
+      }
+    },
+    "alterConv": [],
+    "defaultAlternative": null,
+    "conditionItems": {
+      "items": [],
+      "setValue": ""
+    },
+    "responseType": "default",
+    "intent": "new_intent",
+    "response": [
+      "test2.response"
+    ],
+    "optionRes": [],
+    "sequence": true,
+    "preBuildAlternative": [],
+    "loopActive": {
+      "active": false,
+      "returnIndex": {
+        "colIndex": ""
+      }
+    }
+  }
+]

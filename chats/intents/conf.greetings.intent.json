@@ -1,0 +1,646 @@
+{
+  "name": "conf.greetings",
+  "des": "des-conf",
+  "items": [
+    {
+      "text": "Hey there! How’s your day going?",
+      "confWrong": [],
+      "id": "69af101a-6b7f-41c4-8a03-4f4e33a6683f",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hi! What’s new with you?",
+      "confWrong": [],
+      "id": "6e2f3d8f-7d04-4c8e-b9f3-a0f8049d798e",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hello! How are you today?",
+      "confWrong": [],
+      "id": "10b0b778-d1fa-4156-9a48-712ee5895a5a",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hey! How’s everything in your world?",
+      "confWrong": [],
+      "id": "9dbded77-c043-4c02-a900-87d2d62ebf46",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hi there! What’s the good word?",
+      "confWrong": [],
+      "id": "76f9944d-9f8a-402e-ba7c-c994591a682b",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hello! How have you been lately?",
+      "confWrong": [],
+      "id": "c1697390-7f0c-4295-8c1a-f2619aa15a9f",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hey! What’s up?",
+      "confWrong": [],
+      "id": "f3d0a075-724b-4c73-947d-ae42c0dd4efc",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hi! How’s life treating you?",
+      "confWrong": [],
+      "id": "3441b5f7-0aa8-4402-a223-6da4496afae3",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hello there! What’s on your mind?",
+      "confWrong": [],
+      "id": "5cc63544-b120-44e3-beb7-7b63a9b8a01d",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hey! How’s your week been so far?",
+      "confWrong": [],
+      "id": "5a3ebb86-9e11-4cae-a157-9b43a1b4a8c7",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hi! Long time no chat! What’s been happening?",
+      "confWrong": [
+        "HI! WHAT’S NO LONG TIME HAPPENING? CHAT! BEEN",
+        "HI! NO TIME LONG BEEN CHAT! HAPPENING? WHAT’S",
+        "HI! TIME LONG NO BEEN HAPPENING? CHAT! WHAT’S",
+        "HI! TIME BEEN CHAT! NO LONG HAPPENING? WHAT’S",
+        "HI! TIME BEEN NO LONG HAPPENING? CHAT! WHAT’S",
+        "HI! TIME LONG WHAT’S NO HAPPENING? CHAT! BEEN",
+        "HI! TIME BEEN LONG CHAT! NO HAPPENING? WHAT’S",
+        "HI! TIME LONG CHAT! NO HAPPENING? WHAT’S BEEN",
+        "HI! NO TIME LONG HAPPENING? CHAT! WHAT’S BEEN",
+        "HI! NO WHAT’S TIME LONG HAPPENING? CHAT! BEEN",
+        "HI! TIME NO LONG HAPPENING? CHAT! WHAT’S BEEN",
+        "HI! LONG CHAT! TIME HAPPENING? NO BEEN WHAT’S",
+        "HI! NO WHAT’S LONG HAPPENING? TIME CHAT! BEEN",
+        "HI! CHAT! NO LONG HAPPENING? TIME WHAT’S BEEN",
+        "hi! time been chat! no long happening? what’s",
+        "hi! time long no happening? been chat! what’s",
+        "hi! time long chat! no been happening? what’s",
+        "hi! time long chat! no happening? what’s been",
+        "hi! time been long chat! no happening? what’s",
+        "hi! long chat! time happening? no been what’s",
+        "hi! time long no happening? chat! been what’s",
+        "hi! chat! no long happening? time what’s been",
+        "hi! time been long no chat! happening? what’s",
+        "hi! no what’s long happening? time chat! been",
+        "hi! time long what’s no happening? chat! been",
+        "hi! chat! long no happening? time what’s been",
+        "Hi! long chat! time happening? no been what’s",
+        "Hi! time been long no chat! happening? what’s",
+        "Hi! no what’s long happening? time chat! been",
+        "Hi! chat! no long happening? time what’s been",
+        "Hi! no time long been chat! happening? what’s",
+        "Hi! no time long happening? chat! what’s been",
+        "Hi! time long no been happening? chat! what’s",
+        "Hi! time been no long happening? chat! what’s",
+        "Hi! time long chat! no happening? what’s been",
+        "Hi! time long no happening? chat! been what’s",
+        "Hi! time been long chat! no happening? what’s"
+      ],
+      "id": "df94be82-9172-497a-ba83-4b9a884dce80",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hello! What’s the latest?",
+      "confWrong": [],
+      "id": "e3944348-8af1-44d2-9e9b-e011f6a8e5f3",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hey there! How are things going for you?",
+      "confWrong": [
+        "HEY HOW THINGS THERE! ARE YOU? GOING FOR",
+        "HEY THINGS THERE! GOING YOU? HOW ARE FOR",
+        "HEY HOW THERE! THINGS GOING ARE YOU? FOR",
+        "HEY ARE THERE! GOING YOU? HOW FOR THINGS",
+        "HEY HOW ARE THERE! GOING YOU? FOR THINGS",
+        "HEY ARE THERE! GOING YOU? FOR HOW THINGS",
+        "HEY THINGS THERE! FOR HOW ARE YOU? GOING",
+        "HEY ARE THERE! GOING YOU? HOW THINGS FOR",
+        "HEY THINGS THERE! HOW YOU? GOING ARE FOR",
+        "HEY ARE THERE! GOING THINGS HOW YOU? FOR",
+        "HEY THINGS THERE! GOING HOW YOU? ARE FOR",
+        "HEY ARE THERE! THINGS HOW FOR YOU? GOING",
+        "HEY HOW THINGS THERE! ARE YOU? FOR GOING",
+        "HEY ARE THERE! GOING HOW THINGS YOU? FOR",
+        "HEY ARE THERE! THINGS FOR HOW YOU? GOING",
+        "HEY ARE THERE! THINGS HOW YOU? FOR GOING",
+        "HEY HOW ARE THERE! GOING YOU? THINGS FOR",
+        "hey how things there! for you? are going",
+        "hey how are there! going you? for things",
+        "hey are there! going things how you? for",
+        "hey how things there! are you? going for",
+        "hey how things there! are for you? going",
+        "hey things there! for how are you? going",
+        "hey how things there! are you? for going",
+        "hey are there! things how for you? going",
+        "hey are there! going you? how for things",
+        "hey are things going there! how you? for",
+        "hey how things there! going you? are for",
+        "hey things there! going you? how are for",
+        "hey are there! going you? for how things",
+        "hey things there! how you? going are for",
+        "hey are there! things for how you? going",
+        "hey how are there! going you? things for",
+        "Hey how there! things going are you? for",
+        "Hey how things there! are for you? going",
+        "Hey how things there! are you? going for",
+        "Hey how are there! going you? things for",
+        "Hey are there! going you? how things for",
+        "Hey how things there! going you? are for",
+        "Hey are there! how for going you? things",
+        "Hey things there! for how are you? going",
+        "Hey are there! things how you? going for",
+        "Hey things there! how for are you? going",
+        "Hey are there! for how going you? things",
+        "Hey are there! things how you? for going",
+        "Hey are there! going you? for how things",
+        "Hey how are there! going you? for things",
+        "Hey are there! going things how you? for",
+        "Hey things there! how you? going are for",
+        "Hey how things there! for you? are going"
+      ],
+      "id": "d8fc1884-604b-4d7d-a18b-fac1c42c60ee",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hi! What’s the scoop?",
+      "confWrong": [],
+      "id": "7ce8485e-9a25-43ae-aa91-755f3ee002ae",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hello! How’s everything going on your end?",
+      "confWrong": [],
+      "id": "1184c5ac-2179-4712-8fc3-11619324d78d",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hey! How’s the day treating you?",
+      "confWrong": [],
+      "id": "c0ea885a-089f-4315-9663-2f173f3964ef",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hi! What’s the buzz?",
+      "confWrong": [],
+      "id": "5a7ae1b1-6524-483e-ad99-57bffffb6bb0",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hello there! How’s your day shaping up?",
+      "confWrong": [],
+      "id": "d2302b0c-49ab-4883-b076-1e40e83e7cf3",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hey! What’s shaking?",
+      "confWrong": [],
+      "id": "df66c33c-b238-4faf-9110-7ced416469ea",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hi! How’s life treating you lately?",
+      "confWrong": [
+        "HI! TREATING HOW’S LIFE LATELY? YOU",
+        "hi! treating how’s life lately? you",
+        "Hi! treating how’s life lately? you"
+      ],
+      "id": "5ec62b6a-e6f7-465e-b559-63f032a18147",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hello! How’s your day been going so far?",
+      "confWrong": [
+        "HELLO! YOUR BEEN GOING HOW’S FAR? DAY SO",
+        "HELLO! SO BEEN HOW’S DAY YOUR FAR? GOING",
+        "HELLO! BEEN HOW’S SO DAY FAR? YOUR GOING",
+        "HELLO! YOUR SO BEEN DAY HOW’S FAR? GOING",
+        "HELLO! DAY SO YOUR BEEN HOW’S FAR? GOING",
+        "HELLO! BEEN YOUR HOW’S GOING SO FAR? DAY",
+        "HELLO! DAY SO HOW’S BEEN FAR? YOUR GOING",
+        "HELLO! SO GOING BEEN YOUR HOW’S FAR? DAY",
+        "HELLO! BEEN YOUR FAR? HOW’S DAY SO GOING",
+        "HELLO! BEEN HOW’S YOUR SO GOING FAR? DAY",
+        "HELLO! SO YOUR DAY FAR? HOW’S BEEN GOING",
+        "HELLO! DAY HOW’S GOING YOUR SO FAR? BEEN",
+        "HELLO! BEEN DAY YOUR HOW’S FAR? SO GOING",
+        "HELLO! SO YOUR BEEN HOW’S DAY FAR? GOING",
+        "HELLO! YOUR DAY BEEN SO HOW’S FAR? GOING",
+        "HELLO! YOUR BEEN SO HOW’S GOING FAR? DAY",
+        "HELLO! BEEN SO GOING HOW’S FAR? YOUR DAY",
+        "hello! so going been your how’s far? day",
+        "hello! day how’s going your been far? so",
+        "hello! so how’s day far? your been going",
+        "hello! so been how’s day your far? going",
+        "hello! so day your how’s far? been going",
+        "hello! been your day how’s far? so going",
+        "hello! so your been far? how’s day going",
+        "hello! been how’s your far? day so going",
+        "hello! been so how’s far? your going day",
+        "hello! so day been your how’s far? going",
+        "hello! been your so how’s far? going day",
+        "hello! so been how’s far? going your day",
+        "hello! been how’s so your day far? going",
+        "hello! so how’s your day far? been going",
+        "hello! day so your been how’s far? going",
+        "hello! your so going far? how’s been day",
+        "hello! been your how’s going so far? day",
+        "hello! day so your far? how’s been going",
+        "hello! day your so how’s far? going been",
+        "hello! been how’s your far? day going so",
+        "Hello! so how’s day been your far? going",
+        "Hello! so been day your how’s far? going",
+        "Hello! been how’s so far? day your going",
+        "Hello! been your so far? how’s going day",
+        "Hello! your been how’s far? day going so",
+        "Hello! been how’s so your going far? day",
+        "Hello! so been day how’s your far? going",
+        "Hello! day so your been how’s far? going",
+        "Hello! so been your how’s day far? going",
+        "Hello! been how’s so far? your day going",
+        "Hello! day been your how’s far? so going",
+        "Hello! been your far? so how’s day going",
+        "Hello! so day your how’s far? been going",
+        "Hello! day so been how’s far? your going",
+        "Hello! so your been how’s day far? going",
+        "Hello! so how’s been day far? your going",
+        "Hello! day your how’s so far? been going",
+        "Hello! so your how’s day been far? going",
+        "Hello! been going your how’s so far? day"
+      ],
+      "id": "049db158-df3b-4e93-bd91-403363706f17",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hey there! What’s been going on in your life?",
+      "confWrong": [
+        "HEY GOING BEEN IN THERE! WHAT’S ON LIFE? YOUR",
+        "HEY WHAT’S THERE! ON GOING YOUR LIFE? BEEN IN",
+        "HEY BEEN THERE! WHAT’S YOUR GOING LIFE? ON IN",
+        "HEY WHAT’S THERE! GOING IN LIFE? BEEN ON YOUR",
+        "HEY ON WHAT’S BEEN THERE! LIFE? IN GOING YOUR",
+        "HEY GOING BEEN THERE! ON WHAT’S IN LIFE? YOUR",
+        "HEY WHAT’S IN THERE! LIFE? GOING BEEN YOUR ON",
+        "HEY WHAT’S ON THERE! LIFE? BEEN GOING IN YOUR",
+        "HEY BEEN WHAT’S THERE! IN ON GOING LIFE? YOUR",
+        "HEY WHAT’S BEEN THERE! ON GOING LIFE? IN YOUR",
+        "HEY ON WHAT’S THERE! BEEN GOING IN LIFE? YOUR",
+        "HEY WHAT’S ON THERE! LIFE? GOING IN BEEN YOUR",
+        "HEY WHAT’S BEEN THERE! ON YOUR LIFE? GOING IN",
+        "HEY WHAT’S ON THERE! IN GOING BEEN LIFE? YOUR",
+        "HEY ON BEEN IN THERE! WHAT’S LIFE? GOING YOUR",
+        "HEY WHAT’S ON BEEN THERE! IN LIFE? GOING YOUR",
+        "HEY BEEN WHAT’S THERE! YOUR LIFE? GOING ON IN",
+        "HEY WHAT’S ON YOUR BEEN THERE! LIFE? IN GOING",
+        "HEY WHAT’S ON THERE! IN BEEN GOING LIFE? YOUR",
+        "HEY BEEN WHAT’S THERE! YOUR LIFE? ON IN GOING",
+        "hey on been there! what’s going in life? your",
+        "hey going what’s there! your on been life? in",
+        "hey been what’s there! on in going life? your",
+        "hey going there! been what’s on your life? in",
+        "hey in what’s there! going been on life? your",
+        "hey on there! what’s been life? in going your",
+        "hey what’s in there! going been life? on your",
+        "hey what’s going been there! your life? on in",
+        "hey been on there! what’s going in life? your",
+        "hey what’s in there! been on your life? going",
+        "hey what’s on there! going been life? in your",
+        "hey what’s in on there! going been life? your",
+        "hey what’s going there! been your life? on in",
+        "hey been there! what’s in on life? going your",
+        "hey what’s on in there! going been life? your",
+        "hey what’s there! on life? your going been in",
+        "hey what’s in there! life? been going on your",
+        "hey what’s been going in there! on life? your",
+        "hey what’s there! on been going life? your in",
+        "hey what’s there! on your going been life? in",
+        "Hey what’s been there! on going your life? in",
+        "Hey going been what’s there! in on life? your",
+        "Hey what’s in there! life? your been on going",
+        "Hey what’s been there! on going life? in your",
+        "Hey on there! going what’s been in life? your",
+        "Hey been what’s there! on your life? in going",
+        "Hey been what’s there! life? your in on going",
+        "Hey what’s going been there! life? on your in",
+        "Hey on there! been what’s life? in going your",
+        "Hey what’s going there! been life? on your in",
+        "Hey what’s there! on life? your been going in",
+        "Hey on there! been going what’s in life? your",
+        "Hey been what’s there! in life? your on going",
+        "Hey been there! going what’s on life? your in",
+        "Hey what’s in there! life? been going your on",
+        "Hey what’s there! on your going been life? in",
+        "Hey what’s going your there! life? been on in",
+        "Hey what’s on there! life? going your been in",
+        "Hey been in what’s life? there! on going your",
+        "Hey what’s in on there! your been life? going"
+      ],
+      "id": "34d4e627-7575-46ce-84d0-db6a186bb3cc",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hi! How’s everything in your corner of the world?",
+      "confWrong": [],
+      "id": "32be4e18-d947-4b9f-9dac-cc49cd93f6d9",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hello! What’s the latest and greatest?",
+      "confWrong": [],
+      "id": "cd459b0f-61f3-4893-aef8-c93978cad252",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hey! What’s the good news?",
+      "confWrong": [],
+      "id": "05c1d344-cfb3-4bdb-8921-d56c7c83cf1a",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hi! How’s everything going on your side?",
+      "confWrong": [
+        "HI! GOING HOW’S SIDE? YOUR EVERYTHING ON",
+        "HI! GOING HOW’S YOUR SIDE? EVERYTHING ON",
+        "HI! GOING HOW’S SIDE? ON EVERYTHING YOUR",
+        "hi! going how’s your side? everything on",
+        "hi! going how’s side? your everything on",
+        "hi! going how’s side? on everything your",
+        "Hi! going how’s your side? everything on",
+        "Hi! going how’s side? on everything your",
+        "Hi! going how’s side? your everything on"
+      ],
+      "id": "22e1a1c5-1743-4a3b-9265-44debc2efb3d",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hello there! How’s your day been unfolding?",
+      "confWrong": [],
+      "id": "da80f77e-448e-45d7-a148-8f4711ec3b17",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hey! What’s the word on the street?",
+      "confWrong": [
+        "HEY! WORD WHAT’S STREET? ON THE THE",
+        "HEY! WORD WHAT’S THE STREET? ON THE",
+        "HEY! THE ON STREET? WHAT’S THE WORD",
+        "HEY! ON WHAT’S WORD THE STREET? THE",
+        "HEY! THE THE WHAT’S STREET? ON WORD",
+        "HEY! WORD THE WHAT’S STREET? ON THE",
+        "HEY! THE ON STREET? WHAT’S WORD THE",
+        "HEY! WORD ON WHAT’S STREET? THE THE",
+        "HEY! ON WHAT’S THE WORD STREET? THE",
+        "HEY! ON WORD WHAT’S THE STREET? THE",
+        "HEY! THE WORD WHAT’S STREET? ON THE",
+        "hey! word what’s the the street? on",
+        "hey! the the what’s street? on word",
+        "hey! on word the what’s street? the",
+        "hey! word what’s street? on the the",
+        "hey! the word what’s the street? on",
+        "hey! on what’s word the street? the",
+        "hey! on the street? what’s the word",
+        "hey! word what’s the street? on the",
+        "hey! on word what’s the street? the",
+        "hey! on what’s the the street? word",
+        "hey! the on street? what’s word the",
+        "hey! on what’s the word street? the",
+        "hey! word the what’s the street? on",
+        "hey! word the what’s street? on the",
+        "Hey! the word what’s street? on the",
+        "Hey! the the what’s word street? on",
+        "Hey! on word the what’s street? the",
+        "Hey! the on street? what’s the word",
+        "Hey! on word what’s the street? the",
+        "Hey! word what’s street? on the the",
+        "Hey! word the what’s street? on the",
+        "Hey! word on what’s street? the the",
+        "Hey! on the street? what’s the word",
+        "Hey! on what’s the word street? the",
+        "Hey! on what’s the the street? word",
+        "Hey! the on street? what’s word the"
+      ],
+      "id": "e9312770-1aac-493c-81ea-9578a1936b48",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hi! How’s your day been treating you?",
+      "confWrong": [],
+      "id": "000878e9-1baa-43f8-9f6b-af2faa635e07",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hello! How’s life been treating you lately?",
+      "confWrong": [],
+      "id": "a8bde94b-4c3d-4c9e-8cd6-e7306b851b19",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hey there! What’s the story?",
+      "confWrong": [],
+      "id": "7890fa77-0a11-4c2c-8100-b9cf64754743",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hi! How’s everything in your neck of the woods?",
+      "confWrong": [],
+      "id": "39c04ad1-fae7-4b8b-a636-aafe69d4a723",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hello! How’s your day been so far?",
+      "confWrong": [],
+      "id": "be11b3e0-e540-4241-ba45-6d0f7fc70954",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hey! What’s been happening in your world?",
+      "confWrong": [],
+      "id": "274f1d28-58c8-42a1-95da-dea981aaead7",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hi! How’s everything going with you?",
+      "confWrong": [],
+      "id": "08812b30-31c6-4c8a-99c8-ca12aed5f228",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hello there! How’s your day shaping up?",
+      "confWrong": [],
+      "id": "f897974f-2683-4efd-9d5f-35c62c7a3655",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hey! How’s it going?",
+      "confWrong": [],
+      "id": "eb1e1849-61c2-453e-84b8-8cb30727d82a",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hi! What’s been going on?",
+      "confWrong": [],
+      "id": "0b88f767-737e-47ca-97e6-705d460cdb93",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hello! How’s everything on your end?",
+      "confWrong": [],
+      "id": "f1261e0b-3b8c-4f3c-b141-6a63b04644b5",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hey there! How’s life treating you?",
+      "confWrong": [
+        "HEY THERE! YOU? LIFE TREATING HOW’S",
+        "HEY HOW’S THERE! YOU? LIFE TREATING",
+        "HEY HOW’S THERE! TREATING YOU? LIFE",
+        "hey how’s there! treating you? life",
+        "hey how’s there! you? life treating",
+        "hey there! you? life treating how’s",
+        "Hey there! you? life treating how’s",
+        "Hey how’s there! treating you? life",
+        "Hey how’s there! you? life treating"
+      ],
+      "id": "adcfc40f-f3cb-4744-bc17-79b4c783e212",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hi! What’s new and exciting?",
+      "confWrong": [],
+      "id": "08bbcdc4-25cb-4bf5-bf0b-500ae539b407",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hello! How’s everything been?",
+      "confWrong": [],
+      "id": "287c762a-6e13-4a5d-827e-11722c5fbaf8",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hey! How have you been lately?",
+      "confWrong": [
+        "HEY! BEEN HAVE HOW LATELY? YOU",
+        "HEY! BEEN LATELY? HOW HAVE YOU",
+        "HEY! BEEN HOW LATELY? HAVE YOU",
+        "hey! been lately? how have you",
+        "hey! been have how lately? you",
+        "hey! been how lately? have you",
+        "Hey! been have how lately? you",
+        "Hey! been lately? how have you",
+        "Hey! been how lately? have you"
+      ],
+      "id": "038cfe07-0987-49ae-9063-282373e12abc",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hi! How’s your day going so far?",
+      "confWrong": [],
+      "id": "b73259a5-cac6-421e-8410-17bc64bbf70d",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hello there! What’s the latest gossip?",
+      "confWrong": [],
+      "id": "48260396-13b5-4690-8f02-ce2dcc11fac4",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hey! How’s life been treating you lately?",
+      "confWrong": [],
+      "id": "b909d433-bf21-43f1-9060-560f993bac84",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hi! What’s the latest update?",
+      "confWrong": [],
+      "id": "56852f8c-8660-4384-ba55-bb5dbe24eae0",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hello! How’s everything going on your side?",
+      "confWrong": [],
+      "id": "aa2c1d64-0735-4220-80d8-c48986670c86",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hey there! What’s been happening in your world?",
+      "confWrong": [],
+      "id": "95e3d909-9b83-4a40-bc5e-bf7897c1ff09",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hi! How’s your day been unfolding?",
+      "confWrong": [],
+      "id": "132a2699-081f-4549-bc5e-2b33780f6d12",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hey!",
+      "confWrong": [],
+      "id": "d104963a-f310-4b7f-a7a3-ac8a32d2ddf9",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Yo there!",
+      "confWrong": [],
+      "id": "b5d98168-388e-4c95-9e9f-c29f6660cb24",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hello!",
+      "confWrong": [],
+      "id": "b7749203-e573-4402-b8cf-de543c151b07",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "WHATS UPPP",
+      "confWrong": [],
+      "id": "4944ca97-4ad3-45e1-b973-82e44f699450",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "hey man",
+      "confWrong": [],
+      "id": "d61596ee-a596-4ce0-b1ea-2d42ff4d63ed",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "hey bot",
+      "confWrong": [],
+      "id": "891b077d-8c2a-4f20-8ede-ff887cf02ce8",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "hey botla",
+      "confWrong": [],
+      "id": "e62de227-8f37-4c4d-8cbe-9621df6d9ada",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "hi bro",
+      "confWrong": [],
+      "id": "4808fe57-5fa9-4fed-9b48-d2c57a4988be",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "Hey ai",
+      "confWrong": [],
+      "id": "e787bfae-2813-460e-9bb4-c42f3bdc8f1c",
+      "mainBlocName": "greetings"
+    },
+    {
+      "text": "ai",
+      "confWrong": [],
+      "id": "96d9f3f4-b47b-4ae8-afe7-9c86a6426c7f",
+      "mainBlocName": "greetings"
+    }
+  ],
+  "option": {}
+}

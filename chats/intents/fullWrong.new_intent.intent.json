@@ -1,0 +1,67 @@
+{
+  "name": "fullWrong.new_intent",
+  "des": "des-fullWrong",
+  "items": [
+    {
+      "text": "asdasdas dasdasdasd",
+      "fullWrong": [],
+      "id": "288f0dee-19b8-47a1-bd29-ab6ca0a08d7f",
+      "mainBlocName": "new_intent"
+    },
+    {
+      "text": "a sd a sdasdasd12312312",
+      "fullWrong": [],
+      "id": "f038aefa-6763-4fb2-8c64-8014f311351c",
+      "mainBlocName": "new_intent"
+    },
+    {
+      "text": "asdasd123123 asdasd123345435435",
+      "fullWrong": [],
+      "id": "ae399df9-e9c7-43ea-a873-cae0cd48357b",
+      "mainBlocName": "new_intent"
+    },
+    {
+      "text": "asdcasddfgdfgfdg34534543543",
+      "fullWrong": [],
+      "id": "17415dd0-675f-4ef5-a692-873efb530e3e",
+      "mainBlocName": "new_intent"
+    },
+    {
+      "text": "sddsdf",
+      "fullWrong": [],
+      "id": "fc1e984e-d8da-4e37-a3d4-15c021837697",
+      "mainBlocName": "new_intent"
+    },
+    {
+      "text": "asdhj adsg asdas d",
+      "fullWrong": [],
+      "id": "4c01dab9-b41d-42a1-8984-db90c5d48b1c",
+      "mainBlocName": "new_intent"
+    },
+    {
+      "text": "asd asdhgasda",
+      "fullWrong": [],
+      "id": "1fbc0a19-50cb-481a-ada7-5a916e2de47e",
+      "mainBlocName": "new_intent"
+    },
+    {
+      "text": "sda sdhakjshd1jk2h3k12h3 a sd",
+      "fullWrong": [],
+      "id": "c7e5c1c3-040e-403c-9a35-9e8824733d35",
+      "mainBlocName": "new_intent"
+    },
+    {
+      "text": "adahs djkashd12312312",
+      "fullWrong": [],
+      "id": "c7dcb253-087d-4668-b483-65cf79285ef4",
+      "mainBlocName": "new_intent"
+    },
+    {
+      "text": "shdj ajksgdajkhsgdjh123123",
+      "fullWrong": [],
+      "id": "563fde36-eb6c-4d5a-befe-aa09505ab08f",
+      "mainBlocName": "new_intent"
+    }
+  ],
+  "option": {}
+}

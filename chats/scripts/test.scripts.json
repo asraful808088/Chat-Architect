@@ -1,0 +1,136 @@
+{
+  "name": "test",
+  "des": "scripts make to testing",
+  "items": [
+    {
+      "listOfIntent": [],
+      "listOfConditions": [],
+      "listOfResponses": [],
+      "storeConvIndex": [],
+      "id": "1a6cb24f-d609-4810-beb1-b0a6bd80e640",
+      "type": "init",
+      "index": 0,
+      "prefixfunc": null,
+      "nextConv": {
+        "listOfIntent": [],
+        "listOfConditions": [],
+        "listOfResponses": [],
+        "storeConvIndex": [
+          "1a6cb24f-d609-4810-beb1-b0a6bd80e640"
+        ],
+        "id": "fbaf96c6-115e-413a-8686-377012f05e12",
+        "type": "next-conversition",
+        "index": 1,
+        "prefixfunc": null,
+        "nextConv": {
+          "listOfIntent": [],
+          "listOfConditions": [],
+          "listOfResponses": [],
+          "storeConvIndex": [
+            "1a6cb24f-d609-4810-beb1-b0a6bd80e640",
+            "fbaf96c6-115e-413a-8686-377012f05e12"
+          ],
+          "id": "e070871f-8c51-4d1a-b50c-c7428f566ce4",
+          "type": "next-conversition",
+          "index": 2,
+          "prefixfunc": null,
+          "nextConv": {
+            "listOfIntent": [],
+            "listOfConditions": [],
+            "listOfResponses": [],
+            "storeConvIndex": [
+              "1a6cb24f-d609-4810-beb1-b0a6bd80e640",
+              "fbaf96c6-115e-413a-8686-377012f05e12",
+              "e070871f-8c51-4d1a-b50c-c7428f566ce4"
+            ],
+            "id": "c3138a9b-3b87-41de-8042-0402e651a977",
+            "type": "next-conversition",
+            "index": 3,
+            "prefixfunc": null,
+            "nextConv": null,
+            "alterConv": [],
+            "defaultAlternative": null,
+            "conditionItems": {
+              "items": [],
+              "setValue": ""
+            },
+            "responseType": "default",
+            "intent": "asdasd123123",
+            "response": [
+              "finaldefault.build.response"
+            ],
+            "optionRes": [],
+            "sequence": true,
+            "preBuildAlternative": [],
+            "loopActive": {
+              "active": false,
+              "returnIndex": {
+                "colIndex": ""
+              }
+            }
+          },
+          "alterConv": [],
+          "defaultAlternative": null,
+          "conditionItems": {
+            "items": [],
+            "setValue": ""
+          },
+          "responseType": "default",
+          "intent": "conf.asdasd",
+          "response": [
+            "exemples.action"
+          ],
+          "optionRes": [],
+          "sequence": true,
+          "preBuildAlternative": [],
+          "loopActive": {
+            "active": false,
+            "returnIndex": {
+              "colIndex": ""
+            }
+          }
+        },
+        "alterConv": [],
+        "defaultAlternative": null,
+        "conditionItems": {
+          "items": [],
+          "setValue": ""
+        },
+        "responseType": "default",
+        "intent": "asdasd",
+        "response": [
+          "finaldefault.build.response"
+        ],
+        "optionRes": [],
+        "sequence": true,
+        "preBuildAlternative": [],
+        "loopActive": {
+          "active": false,
+          "returnIndex": {
+            "colIndex": ""
+          }
+        }
+      },
+      "alterConv": [],
+      "defaultAlternative": null,
+      "conditionItems": {
+        "items": [],
+        "setValue": ""
+      },
+      "responseType": "default",
+      "intent": "asdasd",
+      "response": [
+        "exemples.action"
+      ],
+      "optionRes": [],
+      "sequence": true,
+      "preBuildAlternative": [],
+      "loopActive": {
+        "active": false,
+        "returnIndex": {
+          "colIndex": ""
+        }
+      }
+    }
+  ]
+}

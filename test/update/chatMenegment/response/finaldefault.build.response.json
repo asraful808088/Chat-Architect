@@ -1,0 +1,170 @@
+{
+  "name": "finaldefault.build",
+  "des": "this is final default response",
+  "items": [
+    {
+      "id": "e8d63939-5a8d-443b-8059-550ea9c9e6cd",
+      "items": [
+        {
+          "type": "text",
+          "items": [
+            {
+              "type": "text",
+              "text": " I'm sorry, but I don't have {{information}} on that topic. Is there something else I can assist you with?",
+              "id": "171b7541-77d0-47b0-b522-f94e9703bb56"
+            }
+          ],
+          "id": "33b2ec47-60ba-4ae7-bead-6ebfeae48f53",
+          "name": "default"
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "type": "text",
+              "text": " I'm sorry, but I don't have {{information}} on that topic. Is there something else I can assist you with? 222",
+              "id": "94485b8b-aa5b-4c4c-9f56-fc126cb0ee77"
+            }
+          ],
+          "id": "000d47c0-8c9f-446d-89cb-1f15bd8b9160",
+          "name": "defaultx"
+        },
+        {
+          "type": "image",
+          "items": [
+            {
+              "type": "text",
+              "text": "asda",
+              "id": "1e450ef2-c707-4ae0-8583-170f8e174451"
+            }
+          ],
+          "id": "b5096da7-dbed-4df6-83c1-e9bee6bc2ec4",
+          "name": "image"
+        }
+      ]
+    },
+    {
+      "id": "4aa906b9-c1ac-46f4-ba9c-727ed6dc45fe",
+      "items": [
+        {
+          "type": "text",
+          "items": [
+            {
+              "type": "text",
+              "text": "Unfortunately, I'm not familiar with that topic, but you might find helpful information",
+              "id": "e35a43fb-7b61-4fba-84d0-38b34c57004e"
+            }
+          ],
+          "id": "4edf3328-5975-42a1-b70c-3b7f51ee5142",
+          "name": "default"
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "type": "text",
+              "text": "Unfortunately, I'm not familiar with that topic, but you might find helpful information 222",
+              "id": "11bdb977-3e6b-461e-9b13-11fc9bba935f"
+            }
+          ],
+          "id": "25f07d8f-4fa2-463d-8c04-ab8fa9d59311",
+          "name": "defaultx"
+        },
+        {
+          "type": "image",
+          "items": [
+            {
+              "type": "text",
+              "text": "asdasdasdasdd",
+              "id": "5999ecb3-3509-4b22-9ed1-718409690d4d"
+            }
+          ],
+          "id": "77c135bd-0528-45f6-8301-27df54fba962",
+          "name": "image"
+        }
+      ]
+    },
+    {
+      "id": "991448c2-f93f-440b-8205-64203c689c6d",
+      "items": [
+        {
+          "type": "text",
+          "items": [
+            {
+              "type": "text",
+              "text": "I'm not familiar with that. Could you provide more details or ask in a different way?",
+              "id": "44745371-5460-4da1-aa67-151c6ea498fb"
+            }
+          ],
+          "id": "2d6f1dda-3aeb-4cec-9aef-198c5087347a",
+          "name": "default"
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "type": "text",
+              "text": "I'm not familiar with that. Could you provide more details or ask in a different way?222",
+              "id": "bae5f0d3-d1c6-42e1-b205-cdc235e60bc4"
+            }
+          ],
+          "id": "c5c4a82c-4ef2-4824-bc45-8f32d9b0baf2",
+          "name": "defaultx"
+        },
+        {
+          "type": "image",
+          "items": [
+            {
+              "type": "text",
+              "text": "asdasd",
+              "id": "00c8f996-aa09-4ab9-800c-5097ef41be5c"
+            }
+          ],
+          "id": "c34433f6-92ed-4d80-ad3b-b7c3e4ef0003",
+          "name": "image"
+        }
+      ]
+    },
+    {
+      "id": "7b1a5f66-fe9a-4893-8ba1-5f4407ab14be",
+      "items": [
+        {
+          "type": "text",
+          "items": [
+            {
+              "type": "text",
+              "text": "If you need more specialized assistance, you can reach out to our support team",
+              "id": "a2134b2d-0abd-4aa9-8ed7-82d5c62e48f8"
+            }
+          ],
+          "id": "ff6f22ef-ed82-4256-9ca4-860771650fc8",
+          "name": "default"
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "type": "text",
+              "text": "If you need more specialized assistance, you can reach out to our support team 22",
+              "id": "03f87c40-b507-4e92-ae9e-66846a167e82"
+            }
+          ],
+          "id": "896779ac-c106-4464-a781-d3515a5541dc",
+          "name": "defaultxz"
+        },
+        {
+          "type": "image",
+          "items": [
+            {
+              "type": "text",
+              "text": "asdasd",
+              "id": "7ceb4646-6716-456c-9862-b12cba3d5c33"
+            }
+          ],
+          "id": "8ff3e179-5076-45e4-b10d-1f3468158a43",
+          "name": "image"
+        }
+      ]
+    }
+  ]
+}
