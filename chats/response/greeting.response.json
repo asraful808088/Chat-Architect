@@ -1,0 +1,94 @@
+{
+  "name": "greeting",
+  "des": "greeting response ",
+  "items": [
+    {
+      "id": "50b5123e-bde9-40a9-a78f-16a9ec504a70",
+      "items": [
+        {
+          "type": "text",
+          "items": [
+            {
+              "type": "header",
+              "text": "Greeting",
+              "id": "8a74303d-ddf1-4872-bd14-038f6d0f1dfa"
+            },
+            {
+              "type": "text",
+              "text": "hey.how can i help you ??",
+              "id": "9e1f3f71-0217-404f-835c-663e2408cc28"
+            }
+          ],
+          "id": "70af457c-8722-40dd-9404-b8e9dae823ff",
+          "name": "greeting"
+        }
+      ]
+    },
+    {
+      "id": "d6290bf2-cbac-45c2-814e-89f354c7a209",
+      "items": [
+        {
+          "type": "text",
+          "items": [
+            {
+              "type": "header",
+              "text": "Greeting",
+              "id": "32ec9a51-3341-4c96-bc78-84433b5b2c0a"
+            },
+            {
+              "type": "text",
+              "text": "hey...Can i help you",
+              "id": "c6c78369-93ed-4038-8998-9860c202d7a2"
+            }
+          ],
+          "id": "78222916-9112-42fa-b7f7-3e87b4ba1362",
+          "name": "greeting"
+        }
+      ]
+    },
+    {
+      "id": "53d3435d-d200-477e-8cc6-79c0027b1192",
+      "items": [
+        {
+          "type": "text",
+          "items": [
+            {
+              "type": "header",
+              "text": "Greeting",
+              "id": "6d4b9532-479c-4f67-aa2a-af84bf2d532c"
+            },
+            {
+              "type": "text",
+              "text": "Can i help you??",
+              "id": "9231da6b-adf0-4145-9dbe-2d28c4bf554f"
+            }
+          ],
+          "id": "b6af9dac-f6a3-4a0a-bd2a-59730ebee72a",
+          "name": "greeting"
+        }
+      ]
+    },
+    {
+      "id": "0acb2d55-4f0c-4c0a-a711-923565952aad",
+      "items": [
+        {
+          "type": "text",
+          "items": [
+            {
+              "type": "header",
+              "text": "Greeting",
+              "id": "a57f3e18-b4e1-46f0-94b6-cd5ab7470178"
+            },
+            {
+              "type": "text",
+              "text": "hey...today i am you assest",
+              "id": "dd6355a0-4feb-427c-8da4-dd61ba110375"
+            }
+          ],
+          "id": "c5bea544-7135-4a87-b5ff-e2e1790bcaca",
+          "name": "greeting"
+        }
+      ]
+    }
+  ]
+}

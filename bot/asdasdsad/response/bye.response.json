@@ -1,0 +1,94 @@
+{
+  "name": "bye",
+  "des": "bye response",
+  "items": [
+    {
+      "id": "36699ff8-acda-4ea6-a67e-1abd26197c30",
+      "items": [
+        {
+          "type": "text",
+          "items": [
+            {
+              "type": "header",
+              "text": "Bye",
+              "id": "96fdd30b-9a64-422a-b05c-cbbd373ce3dc"
+            },
+            {
+              "type": "text",
+              "text": "Bye..",
+              "id": "2131d7ae-50e7-4b13-97c0-0fe5e8bde9b7"
+            }
+          ],
+          "id": "1037474b-1943-4a00-8d4e-8703ae562187",
+          "name": "bye"
+        }
+      ]
+    },
+    {
+      "id": "16b9f0e5-2abf-45be-9488-1070250f77d9",
+      "items": [
+        {
+          "type": "text",
+          "items": [
+            {
+              "type": "header",
+              "text": "Bye",
+              "id": "0ac70d89-a2f7-4939-8449-6462e34e2790"
+            },
+            {
+              "type": "text",
+              "text": "Bye for now, take care",
+              "id": "73b41990-56bd-42e0-a1e0-7816fd5a6f17"
+            }
+          ],
+          "id": "49185fee-5f52-4ca7-bf03-1233b5690a9d",
+          "name": "bye"
+        }
+      ]
+    },
+    {
+      "id": "efbe0235-cea2-4fc1-a9c6-93bbaa6a66a2",
+      "items": [
+        {
+          "type": "text",
+          "items": [
+            {
+              "type": "header",
+              "text": "Bye",
+              "id": "62f041cf-c7c3-4adf-b3fd-e41d4f9eb91e"
+            },
+            {
+              "type": "text",
+              "text": "See you later, take care",
+              "id": "87924d1d-9389-4af9-be4a-a09f7a591e5c"
+            }
+          ],
+          "id": "91cad39d-e9b6-46d1-957b-e3be6eb1d1b3",
+          "name": "bye"
+        }
+      ]
+    },
+    {
+      "id": "89341d82-6dfd-4a94-96eb-0548214d1fa4",
+      "items": [
+        {
+          "type": "text",
+          "items": [
+            {
+              "type": "header",
+              "text": "Bye",
+              "id": "ea4297c0-7308-47ae-952d-9c7047b26f79"
+            },
+            {
+              "type": "text",
+              "text": "Bye.Take care",
+              "id": "49f6153d-3d95-466b-af4b-fe2deded7361"
+            }
+          ],
+          "id": "de876f15-a26b-480d-97ec-ce025e349e48",
+          "name": "bye"
+        }
+      ]
+    }
+  ]
+}

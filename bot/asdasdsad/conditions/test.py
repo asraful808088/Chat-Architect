@@ -1,2 +1,2 @@
-def conditions():
-    return ["hold2"]
+def conditions(a,ac):
+    return ["hold",{}]

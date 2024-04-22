@@ -29,7 +29,9 @@ export default function ConditionCreateBox(props: ConditionCreateBoxProps) {
       initValue={name}
         maxLength={25}
         onText={(value) => {
-          setname(value);
+
+          const triming =value.trim()  
+          setname(triming);
         }}
       />
       <TextInput

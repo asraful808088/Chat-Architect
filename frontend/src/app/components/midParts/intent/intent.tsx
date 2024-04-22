@@ -35,7 +35,7 @@ export default function IntentMid(props: IntentMidProps) {
     }
   }, [allIntence.socket]);
   return (
-    <div className="w-full  relative"  style={{
+    <div className="w-full  relative overflow-y-auto"  style={{
       height:"calc(100vh - 120px)"
     }}>
       <PopupFrame active={createPopup}>

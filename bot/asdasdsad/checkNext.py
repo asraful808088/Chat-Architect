@@ -1,16 +1,25 @@
 import sys
 sys.path.append('./')
-from .function import functionBook
+from function import functionBook
 def checkNext(obj,expectation="",memorize={},chat_property={}):
     if obj["intent"]==expectation:
         
         if obj["prefixfunc"]!=None:
             try:
-                funcResult = functionBook["test"](memorize,chat_property)
+                funcResult = functionBook[obj["prefixfunc"]["name"]](memorize,chat_property)
                 if obj["prefixfunc"]["setValue"] == funcResult[0]: 
                     gotLoopAndRes = [item for item in obj["preBuildAlternative"] if item["type"]["value"] == obj["prefixfunc"]["setValue"]]
+                    loopfun = None
+                    for itemOfLoop in obj["conditionItems"]["items"]:
+                        if itemOfLoop["value"]==obj["prefixfunc"]["setValue"]:
+                            loopfun = itemOfLoop["loopActive"]
+                   
                     gotInfo = gotLoopAndRes[0] 
+                   
                     try:
+                        
+                         
+
                         return {
                         "intent":expectation,
                         "passAlternative":False,
@@ -18,16 +27,19 @@ def checkNext(obj,expectation="",memorize={},chat_property={}):
                         "id":obj["id"],
                         "index":obj["index"],
                         "defaultValue":obj["prefixfunc"]["setValue"],
-                         "loopActive":gotInfo["type"]["loopActive"],
+                         "loopActive":loopfun,
                          "response":gotInfo["response"],
                          "sequence":obj["sequence"],
                          "memo":funcResult[1]
                         }
                     except:
+                        
                         return None
                 else:
+                   
                     return None
             except:
+                print("x123123123123123")
                 return None
         else:
             try:

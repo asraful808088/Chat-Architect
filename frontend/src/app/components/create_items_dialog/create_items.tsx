@@ -38,7 +38,8 @@ export default function CreateItemDialog(props: CreateItemDialogProps) {
             placeholder="create name (required)"
             value={newName}
             onChange={(e) => {
-              setNewName(e.target.value);
+              const textrim = e.target.value.trim()
+              setNewName(textrim);
             }}
           />
         </div>

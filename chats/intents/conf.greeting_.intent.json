@@ -1,0 +1,791 @@
+{
+  "name": "conf.greeting_",
+  "des": "des-conf",
+  "items": [
+    {
+      "text": "Hi!",
+      "confWrong": [],
+      "id": "02d5a701-b8f3-49de-9579-928a2a2240e4",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hello!",
+      "confWrong": [],
+      "id": "5e455ea5-2a00-4271-acd2-96ee8e2435fd",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey!",
+      "confWrong": [],
+      "id": "93cecce6-dd82-4c1e-bd5f-1b7f42d7d7b6",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Howdy!",
+      "confWrong": [],
+      "id": "6e53950f-4cb0-46c2-b99f-30fc17934475",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi there!",
+      "confWrong": [],
+      "id": "c2102d7d-f9c3-4ede-a8b9-6841220c800b",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, what's up?",
+      "confWrong": [],
+      "id": "653d9bba-0139-47b0-9b81-ca7dae18232f",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Good morning!",
+      "confWrong": [],
+      "id": "c3093105-3558-4cc0-af69-1447600d9057",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Good afternoon!",
+      "confWrong": [],
+      "id": "7b10d049-8edb-432c-8aac-2d115d6a8b14",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Good evening!",
+      "confWrong": [],
+      "id": "737a8d5b-023b-45b9-a5ab-9d70e5fc788d",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, how are you?",
+      "confWrong": [],
+      "id": "d04c5483-8461-4cb8-8649-0c311b62b466",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi, how's it going?",
+      "confWrong": [],
+      "id": "cf19deac-9f55-427a-9340-6c8de0402dd2",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hello, how have you been?",
+      "confWrong": [],
+      "id": "5cb228d1-398c-4ca8-be4b-1a952c017ee7",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Greetings!",
+      "confWrong": [],
+      "id": "37202377-0d16-4a1d-818c-d362f71bebe3",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Yo!",
+      "confWrong": [],
+      "id": "573491f9-023b-4901-85e3-8adea659f77c",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "What's happening?",
+      "confWrong": [],
+      "id": "ffa39ac9-91d4-4345-af63-b22288e7a3d4",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "How's everything?",
+      "confWrong": [],
+      "id": "02760413-55e6-46a5-997f-c2ea072db184",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "How's your day?",
+      "confWrong": [],
+      "id": "11e6493d-24f4-4993-918e-0326069c4f41",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "How are things?",
+      "confWrong": [],
+      "id": "86b27f82-d087-4cd4-9e6b-4892a894bd2a",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "How've you been?",
+      "confWrong": [],
+      "id": "bf693a38-f493-45ae-bbfe-87ae14221955",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Long time no see!",
+      "confWrong": [],
+      "id": "889839a7-4563-4074-9ea7-5de0561071e0",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "It's been a while!",
+      "confWrong": [],
+      "id": "1689b2f4-823e-400a-b4d6-a1c3e7bc5e6d",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi, long time, no talk!",
+      "confWrong": [],
+      "id": "03a62548-b2dd-4e13-a113-6fe5958f52d8",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, stranger!",
+      "confWrong": [],
+      "id": "73c0eec6-76d8-415d-9986-ae414555e7fb",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hiya!",
+      "confWrong": [],
+      "id": "70cec0ae-7d42-44bc-b0c4-c8248bfe368b",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, what's new?",
+      "confWrong": [],
+      "id": "f047e7b9-1462-4eb0-adf9-01bb3903b679",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "What's going on?",
+      "confWrong": [],
+      "id": "472135bc-4bb6-49a6-b12d-21b22e3af64e",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, good to see you!",
+      "confWrong": [],
+      "id": "6ecab249-336a-4be6-9128-b306b49bf6dc",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi, nice to meet you!",
+      "confWrong": [],
+      "id": "f5d6e70d-f48f-4db2-aea1-cf42dd417967",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, how have you been lately?",
+      "confWrong": [
+        "HEY, BEEN LATELY? HOW HAVE YOU",
+        "HEY, BEEN HOW LATELY? HAVE YOU",
+        "HEY, BEEN HAVE HOW LATELY? YOU",
+        "hey, been how lately? have you",
+        "hey, been have how lately? you",
+        "hey, been lately? how have you",
+        "Hey, been how lately? have you",
+        "Hey, been have how lately? you",
+        "Hey, been lately? how have you"
+      ],
+      "id": "95b66a57-8187-43fd-94de-3cbd4e106f6f",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi there, how's life treating you?",
+      "confWrong": [],
+      "id": "41f5ad75-f12f-49ec-99e0-bab7be3beee2",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hello, it's a pleasure to see you again!",
+      "confWrong": [
+        "HELLO, SEE PLEASURE IT'S A AGAIN! TO YOU",
+        "HELLO, SEE IT'S AGAIN! A YOU TO PLEASURE",
+        "HELLO, PLEASURE TO A SEE IT'S AGAIN! YOU",
+        "HELLO, SEE A IT'S PLEASURE TO AGAIN! YOU",
+        "HELLO, PLEASURE TO IT'S A AGAIN! SEE YOU",
+        "HELLO, TO PLEASURE AGAIN! IT'S SEE YOU A",
+        "HELLO, SEE IT'S YOU AGAIN! TO PLEASURE A",
+        "HELLO, A TO YOU IT'S AGAIN! PLEASURE SEE",
+        "HELLO, TO IT'S YOU PLEASURE AGAIN! SEE A",
+        "HELLO, SEE A YOU AGAIN! IT'S TO PLEASURE",
+        "HELLO, PLEASURE IT'S YOU A TO AGAIN! SEE",
+        "HELLO, SEE PLEASURE IT'S TO YOU AGAIN! A",
+        "HELLO, PLEASURE TO IT'S A AGAIN! YOU SEE",
+        "HELLO, SEE IT'S PLEASURE TO YOU AGAIN! A",
+        "HELLO, SEE A IT'S PLEASURE AGAIN! YOU TO",
+        "HELLO, TO IT'S PLEASURE SEE YOU AGAIN! A",
+        "HELLO, TO IT'S A YOU AGAIN! PLEASURE SEE",
+        "HELLO, SEE PLEASURE YOU A IT'S AGAIN! TO",
+        "HELLO, TO A IT'S SEE YOU AGAIN! PLEASURE",
+        "hello, see you a again! it's to pleasure",
+        "hello, to it's pleasure a again! you see",
+        "hello, to a see it's again! you pleasure",
+        "hello, pleasure it's again! see a you to",
+        "hello, see you again! a it's pleasure to",
+        "hello, pleasure you it's see again! to a",
+        "hello, to a see it's again! pleasure you",
+        "hello, see to a it's you again! pleasure",
+        "hello, pleasure it's see you to again! a",
+        "hello, see it's a pleasure again! you to",
+        "hello, see it's you again! pleasure to a",
+        "hello, to it's a again! you pleasure see",
+        "hello, see you again! a it's to pleasure",
+        "hello, see you to it's a again! pleasure",
+        "hello, pleasure to a it's again! see you",
+        "hello, pleasure it's see again! a you to",
+        "hello, to it's see a again! pleasure you",
+        "hello, pleasure a it's see you again! to",
+        "hello, to pleasure it's see a again! you",
+        "hello, pleasure to again! it's see you a",
+        "Hello, pleasure it's see a again! to you",
+        "Hello, pleasure to it's you a again! see",
+        "Hello, pleasure it's you to see again! a",
+        "Hello, pleasure see it's you again! a to",
+        "Hello, see a it's pleasure to again! you",
+        "Hello, a see you again! it's to pleasure",
+        "Hello, to a you see it's again! pleasure",
+        "Hello, to pleasure it's you a again! see",
+        "Hello, to a see it's again! pleasure you",
+        "Hello, to pleasure a see it's again! you",
+        "Hello, pleasure see a it's you again! to",
+        "Hello, see a it's you pleasure again! to",
+        "Hello, pleasure it's you see again! to a",
+        "Hello, pleasure you it's see again! to a",
+        "Hello, see pleasure it's a to again! you",
+        "Hello, pleasure a to it's again! see you",
+        "Hello, see it's a you pleasure again! to",
+        "Hello, pleasure it's again! see a you to"
+      ],
+      "id": "73e61e09-c050-48f0-b180-e1c70656da35",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, how's your day shaping up?",
+      "confWrong": [],
+      "id": "9f09c911-f7b0-4c35-b09e-54ec78b2de43",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi, how's the weather over there?",
+      "confWrong": [],
+      "id": "6b6b672b-3444-42ef-ba5b-36cdb65a022c",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, how's work/school treating you?",
+      "confWrong": [],
+      "id": "1adf41b9-12f3-4b9f-8cbf-37da689d0b53",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi there, what's the latest with you?",
+      "confWrong": [],
+      "id": "81fd7fc6-d549-4e54-8596-ec2fe07fbfb9",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hello, how's your family doing?",
+      "confWrong": [],
+      "id": "9124187d-c23f-480f-a074-65b2f9e1f412",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, what's the gossip?",
+      "confWrong": [],
+      "id": "254cfde3-457e-4033-9811-c5710d25916a",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi, how's the week treating you so far?",
+      "confWrong": [],
+      "id": "17c23047-63f0-47d3-a980-2737b8cb2f9c",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, what's cooking?",
+      "confWrong": [],
+      "id": "d8aef6a8-0b90-4bd3-a6e6-b6a1eb10dcf8",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi, what's the scoop?",
+      "confWrong": [],
+      "id": "acf5110c-ce8d-417d-a48f-29a17530eb24",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, how's your day going, any exciting plans?",
+      "confWrong": [],
+      "id": "64ced6ca-81a8-4b30-bca0-cac81e1502e8",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi, how's your day been unfolding?",
+      "confWrong": [],
+      "id": "d199019b-216c-486a-abdc-7c5ca8adffd2",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, how are you feeling today?",
+      "confWrong": [],
+      "id": "25faed10-4554-43f5-ad5c-b8c433766d7e",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi there, what's on your mind?",
+      "confWrong": [],
+      "id": "de812714-a38c-4ef3-9ccc-6caef768bf60",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, how's life been treating you lately?",
+      "confWrong": [],
+      "id": "2fa27cd7-79f9-4934-8749-f5741f401d9c",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi, how's everything in your world?",
+      "confWrong": [],
+      "id": "214d7f51-e1ec-4da5-845d-9d3a276d1985",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, how's your energy today?",
+      "confWrong": [],
+      "id": "226abad7-994f-40b4-a365-f4e04806ddb6",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi there, what's the word on the street?",
+      "confWrong": [
+        "HI THE THERE, THE WHAT'S ON STREET? WORD",
+        "HI THE WHAT'S THE THERE, ON STREET? WORD",
+        "HI THE THERE, STREET? WORD WHAT'S THE ON",
+        "HI THE THE ON STREET? THERE, WHAT'S WORD",
+        "HI THE THERE, WORD STREET? WHAT'S THE ON",
+        "HI THE WORD ON WHAT'S THERE, STREET? THE",
+        "HI THE THERE, WORD ON WHAT'S STREET? THE",
+        "HI THE WHAT'S THE THERE, STREET? WORD ON",
+        "HI THE THE THERE, WHAT'S STREET? WORD ON",
+        "HI THE WHAT'S WORD ON THERE, STREET? THE",
+        "HI THE THE WHAT'S THERE, STREET? WORD ON",
+        "hi the word what's on there, street? the",
+        "hi the the there, what's street? word on",
+        "hi the there, the what's street? word on",
+        "hi the the what's there, on street? word",
+        "hi the what's the there, street? word on",
+        "hi the what's word on there, street? the",
+        "hi the there, word street? what's the on",
+        "hi the there, street? word what's the on",
+        "hi the what's there, on street? the word",
+        "hi the what's there, the word street? on",
+        "hi the the there, what's on street? word",
+        "Hi the what's there, the word street? on",
+        "Hi the what's the there, street? word on",
+        "Hi the the there, what's street? word on",
+        "Hi the word there, street? what's the on",
+        "Hi the what's word on there, street? the",
+        "Hi the what's there, the street? on word",
+        "Hi the the what's there, street? word on",
+        "Hi the there, street? word what's the on",
+        "Hi the what's the there, on street? word",
+        "Hi the the on street? there, what's word",
+        "Hi the word there, on what's street? the",
+        "Hi the word what's on there, street? the"
+      ],
+      "id": "a9034fb1-d7af-4ffe-9c7c-d08e3e720ed6",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, how's your vibe today?",
+      "confWrong": [],
+      "id": "0a8fa46a-cba8-46e2-a4de-3615dff1ca88",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi, how's the universe treating you today?",
+      "confWrong": [],
+      "id": "6b8742eb-d0ce-4d21-91ec-27072e9fa6fb",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Salutations!",
+      "confWrong": [],
+      "id": "f10224fc-8acf-46d0-a700-0d3ecf03003b",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, stranger! Long time no chat.",
+      "confWrong": [],
+      "id": "4dc546e7-58e6-4216-872f-0d477445f69f",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi, it's great to see you!",
+      "confWrong": [],
+      "id": "647e7cea-6bcd-4a15-a2e2-ac20bc9611d1",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hello, how's your day unfolding?",
+      "confWrong": [],
+      "id": "dea67769-36f1-4745-b771-f95051abfcd4",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, how's life treating you these days?",
+      "confWrong": [
+        "HEY, LIFE HOW'S THESE DAYS? YOU TREATING",
+        "HEY, LIFE TREATING HOW'S DAYS? YOU THESE",
+        "HEY, LIFE THESE HOW'S DAYS? TREATING YOU",
+        "HEY, TREATING HOW'S YOU DAYS? LIFE THESE",
+        "HEY, LIFE HOW'S DAYS? TREATING YOU THESE",
+        "HEY, LIFE HOW'S DAYS? YOU TREATING THESE",
+        "HEY, LIFE HOW'S YOU DAYS? TREATING THESE",
+        "HEY, LIFE TREATING HOW'S DAYS? THESE YOU",
+        "HEY, TREATING HOW'S LIFE THESE DAYS? YOU",
+        "HEY, LIFE THESE DAYS? HOW'S TREATING YOU",
+        "HEY, TREATING HOW'S DAYS? YOU LIFE THESE",
+        "hey, life how's days? treating you these",
+        "hey, life how's days? you treating these",
+        "hey, life these how's treating days? you",
+        "hey, treating how's you days? life these",
+        "hey, treating you how's days? life these",
+        "hey, treating life how's days? you these",
+        "hey, life how's you days? treating these",
+        "hey, life treating how's days? you these",
+        "hey, treating how's days? you life these",
+        "hey, life these how's days? treating you",
+        "hey, life how's these you days? treating",
+        "hey, treating how's life these days? you",
+        "hey, life how's these days? you treating",
+        "hey, life these days? how's treating you",
+        "Hey, life these how's days? treating you",
+        "Hey, life how's days? you treating these",
+        "Hey, life treating how's days? these you",
+        "Hey, treating life how's days? you these",
+        "Hey, life how's these you days? treating",
+        "Hey, treating how's you days? life these",
+        "Hey, life how's these days? you treating",
+        "Hey, life these days? how's treating you",
+        "Hey, treating life how's days? these you",
+        "Hey, life how's you days? treating these",
+        "Hey, life how's days? treating these you",
+        "Hey, life treating how's days? you these",
+        "Hey, treating how's life these days? you"
+      ],
+      "id": "28a86813-2a53-4bc0-96d0-1311156ca13b",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi there, what's the good word?",
+      "confWrong": [],
+      "id": "b416ea60-862f-45cf-b149-b79c1e4d3966",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Greetings, my friend!",
+      "confWrong": [],
+      "id": "7b702519-a9a4-4ec7-a705-55d621636cd9",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, how's your energy today?",
+      "confWrong": [],
+      "id": "5d1df2a9-46aa-4037-b977-26a2a1ee3f6a",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi, how's the world treating you?",
+      "confWrong": [],
+      "id": "0040a27b-2702-4c75-a6c3-91b472f3e102",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hello, how's the day treating you so far?",
+      "confWrong": [],
+      "id": "c235eddb-0678-43fa-88bc-757634840c2f",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, how's your journey been?",
+      "confWrong": [],
+      "id": "4b9f86c5-67fc-43af-a84e-e1946f8455ed",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi, what's the latest scoop?",
+      "confWrong": [],
+      "id": "92c74d38-8e41-4a83-9ec5-8bc4cb6e19ed",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hello, how's your heart today?",
+      "confWrong": [],
+      "id": "a4e966d2-e050-477e-bbb7-8ce85c84b1b9",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, how's your mood today?",
+      "confWrong": [],
+      "id": "5ae19bfb-8d43-43bf-845a-338646c741e2",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi there, how's your spirit today?",
+      "confWrong": [],
+      "id": "c3fbcf88-18c5-43e1-a354-c292e80bdec4",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "G'day!",
+      "confWrong": [],
+      "id": "069975c4-3404-4e4a-9f46-7596547aacdf",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, how's your rhythm today?",
+      "confWrong": [],
+      "id": "618d743b-5170-431c-b997-e3915abfee97",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi, how's your groove today?",
+      "confWrong": [],
+      "id": "797b3564-7dbf-4a1c-b312-412d226901c5",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hello, how's your aura today?",
+      "confWrong": [],
+      "id": "923ab459-f0d1-42d2-8f03-deacb755ed48",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, how's your vibe today?",
+      "confWrong": [],
+      "id": "847c22cb-64ad-456a-a702-2f2503fd270d",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi, how's your flow today?",
+      "confWrong": [],
+      "id": "748fff72-4265-4d8e-9e2f-9d97ae9b31e6",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hello, how's your sparkle today?",
+      "confWrong": [],
+      "id": "f6746245-2edc-420d-bf36-c9b29794b25d",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, how's your spark today?",
+      "confWrong": [],
+      "id": "cdfd474a-20cb-4931-901c-1ea9f3d19507",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi there, how's your glow today?",
+      "confWrong": [],
+      "id": "00cbf380-1429-4633-9387-8a33126fe2ab",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hello, how's your shine today?",
+      "confWrong": [],
+      "id": "959e078d-00a6-4f97-899d-ab45f09f78c9",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, how's your radiance today?",
+      "confWrong": [],
+      "id": "b7e2f733-607c-4797-b8e4-e47d982cd31f",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi, how's your brightness today?",
+      "confWrong": [],
+      "id": "5438d659-7ac8-4ace-b691-04fff03ca462",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hello, how's your light today?",
+      "confWrong": [],
+      "id": "136b2965-5200-4799-87ae-ad2b4a598024",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey there, how's your energy level today?",
+      "confWrong": [],
+      "id": "6c9c413b-59c8-4429-959c-76f75c5cd4ce",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi, how's your zest for life today?",
+      "confWrong": [
+        "HI, YOUR HOW'S FOR LIFE TODAY? ZEST",
+        "HI, YOUR FOR LIFE HOW'S TODAY? ZEST",
+        "HI, FOR YOUR LIFE HOW'S TODAY? ZEST",
+        "HI, ZEST HOW'S YOUR TODAY? FOR LIFE",
+        "HI, YOUR LIFE HOW'S TODAY? ZEST FOR",
+        "HI, FOR YOUR TODAY? HOW'S LIFE ZEST",
+        "HI, ZEST HOW'S YOUR TODAY? LIFE FOR",
+        "HI, FOR HOW'S TODAY? YOUR ZEST LIFE",
+        "HI, FOR HOW'S ZEST YOUR TODAY? LIFE",
+        "HI, YOUR HOW'S FOR ZEST TODAY? LIFE",
+        "HI, ZEST FOR HOW'S YOUR TODAY? LIFE",
+        "HI, YOUR FOR TODAY? HOW'S LIFE ZEST",
+        "HI, YOUR ZEST HOW'S TODAY? LIFE FOR",
+        "HI, YOUR FOR HOW'S ZEST TODAY? LIFE",
+        "HI, YOUR ZEST HOW'S TODAY? FOR LIFE",
+        "hi, your for life how's today? zest",
+        "hi, for how's your today? zest life",
+        "hi, zest how's your today? life for",
+        "hi, for how's zest your today? life",
+        "hi, for how's life your today? zest",
+        "hi, your how's life zest today? for",
+        "hi, your how's for life today? zest",
+        "hi, for how's today? your zest life",
+        "hi, zest how's life your today? for",
+        "hi, your for how's zest today? life",
+        "hi, for your how's life today? zest",
+        "hi, for life today? how's your zest",
+        "hi, for your today? how's life zest",
+        "Hi, your how's life zest today? for",
+        "Hi, your for how's life today? zest",
+        "Hi, your how's for zest today? life",
+        "Hi, zest how's your today? for life",
+        "Hi, for life today? how's your zest",
+        "Hi, your for life how's today? zest",
+        "Hi, your zest how's today? for life",
+        "Hi, your life how's today? zest for",
+        "Hi, your life how's today? for zest",
+        "Hi, for your how's life today? zest",
+        "Hi, for your life how's today? zest",
+        "Hi, for how's your today? zest life",
+        "Hi, for how's life your today? zest"
+      ],
+      "id": "45b113c0-1888-4ad7-b808-b593603303f8",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hello, how's your enthusiasm today?",
+      "confWrong": [],
+      "id": "050a5c97-3b8b-4b7f-b84c-d6a0f7bccc02",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, how's your positivity today?",
+      "confWrong": [],
+      "id": "e4b73342-e95d-4f3e-a37e-811a8f57a04a",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi, how's your optimism today?",
+      "confWrong": [],
+      "id": "95b38880-b245-42fd-b6f0-d28cbd84f69b",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hello, how's your joy today?",
+      "confWrong": [],
+      "id": "56dfa112-c7cc-4a99-8063-556f7a0c68c1",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, how's your happiness today?",
+      "confWrong": [],
+      "id": "5ed20b16-d88d-45ec-833d-b7c2c8932e30",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi, how's your contentment today?",
+      "confWrong": [],
+      "id": "2eaa331a-51cd-47b2-9442-ad0c119fdf07",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hello, how's your peace today?",
+      "confWrong": [],
+      "id": "5006c1a0-bade-4739-bfcd-c2a727a3e790",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, how's your serenity today?",
+      "confWrong": [],
+      "id": "416fa060-c7b3-4e84-8f1f-6d2c724ee3d2",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi, how's your tranquility today?",
+      "confWrong": [],
+      "id": "9d5bacb8-fc56-46d2-ab9f-62e9b116ec37",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hello, how's your calmness today?",
+      "confWrong": [],
+      "id": "97c34f0b-86b2-476f-8a87-61ed48c53fd5",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, how's your relaxation today?",
+      "confWrong": [],
+      "id": "74cf47bd-c531-41e3-bfb7-b8240f861ce3",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi, how's your ease today?",
+      "confWrong": [],
+      "id": "7efce7f6-030c-4f65-91eb-31fe2d765cea",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hello, how's your comfort today?",
+      "confWrong": [],
+      "id": "028c0c05-e7c4-40c0-8bca-9fdd25ed4eb2",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, how's your well-being today?",
+      "confWrong": [],
+      "id": "d10e6716-c705-4619-9660-d25b64ec9f2e",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi, how's your health today?",
+      "confWrong": [],
+      "id": "e1dd375d-d950-49ee-92d5-1465604c2995",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hello, how's your vitality today?",
+      "confWrong": [],
+      "id": "d07c9d29-2220-44dd-9291-c239dfe466b1",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, how's your energy flow today?",
+      "confWrong": [],
+      "id": "ffb3992a-a5b1-4d2b-aa79-3d29c6f8f656",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hi, how's your balance today?",
+      "confWrong": [],
+      "id": "7c23b5a2-a6e6-4995-bbb2-5e47477b1ef8",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hello, how's your harmony today?",
+      "confWrong": [],
+      "id": "5fd128dd-6992-48d6-b858-61aa73e91f8a",
+      "mainBlocName": "greeting_"
+    },
+    {
+      "text": "Hey, how's your alignment today?",
+      "confWrong": [],
+      "id": "6468ea25-34ce-4b22-b92d-7687b953d5b3",
+      "mainBlocName": "greeting_"
+    }
+  ],
+  "option": {}
+}

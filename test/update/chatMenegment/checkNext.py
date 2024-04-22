@@ -5,13 +5,19 @@ def checkNext(obj,expectation="",memorize={},chat_property={}):
  
 
     if obj["intent"]==expectation:
-        
+        print("X123213123123123")
         if obj["prefixfunc"]!=None:
             try:
+               
                 funcResult = functionBook[obj["prefixfunc"]["name"]](memorize,chat_property)
                 if obj["prefixfunc"]["setValue"] == funcResult[0]: 
                     gotLoopAndRes = [item for item in obj["preBuildAlternative"] if item["type"]["value"] == obj["prefixfunc"]["setValue"]]
                     gotInfo = gotLoopAndRes[0] 
+                    loopfun = None
+                    for itemOfLoop in obj["conditionItems"]["items"]:
+                             if itemOfLoop["value"]==obj["prefixfunc"]["setValue"]:
+                                 loopfun = itemOfLoop["loopActive"]
+                    print(loopfun)
                     try:
                         return {
                         "intent":expectation,

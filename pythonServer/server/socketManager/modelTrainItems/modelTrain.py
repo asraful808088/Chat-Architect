@@ -56,4 +56,5 @@ class TrainBotModel:
     if callable(self.onFinishTraning) and self.botTrainClose ==False:
        self.__callbackModel.infoStorage = []
        self.setFullTraningInfo([])
+       print(f"max length:{max_len}",)
        self.onFinishTraning({"save_model":model.save,"tokenizer":tokenizer,"traningData":self.__fullTraningInfo,"max_len":max_len})

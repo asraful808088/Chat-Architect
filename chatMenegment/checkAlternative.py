@@ -1,6 +1,6 @@
 import sys
 sys.path.append('./')
-from  chatMenegment.function import functionBook
+from  function import functionBook
 def checkAlternative(alternatives=[],expectation="",allConversition=[],initIntent=None,chat_property={},memorize={}):
     if len(alternatives)==0:
         return False
@@ -131,6 +131,7 @@ def checkAlternative(alternatives=[],expectation="",allConversition=[],initInten
                
                 else:
                    try:
+                        
                         return {
                              "intent":expectation,
                              "passAlternative":False,
@@ -220,6 +221,10 @@ def checkAlternative(alternatives=[],expectation="",allConversition=[],initInten
                 if funcResult[0] == break_topic[0]["prefixfunc"]["setValue"]:
                   gotLoopAndRes = [item for item in break_topic[0]["preBuildAlternative"] if item["type"]["value"] == break_topic[0]["prefixfunc"]["setValue"]]
                   gotInfo = gotLoopAndRes[0]
+                  loopfun = None
+                  for itemOfLoop in break_topic[0]["conditionItems"]["items"]:
+                      if itemOfLoop["value"]==break_topic[0]["prefixfunc"]["setValue"]:
+                          loopfun = itemOfLoop["loopActive"]
                   try:
                              for item in allConversition:
                                 if  initIntent!=expectation and  item["intent"]==expectation:
@@ -233,7 +238,7 @@ def checkAlternative(alternatives=[],expectation="",allConversition=[],initInten
                                           "sequence":item["sequence"],
                                           "currentAlternative":False,
                                           "brack_topic":True,
-                                          "loopActive":gotInfo["type"]["loopActive"],
+                                          "loopActive":loopfun,
                                            "brack_topic_next":break_topic[0]["nextConv"],
                                            "brack_topic_bloc":break_topic[0],
                                            "prevBlocRes":gotInfo["response"],
@@ -272,7 +277,7 @@ def checkAlternative(alternatives=[],expectation="",allConversition=[],initInten
                                                 #  print(subItem["response"])
                                                  response = None
                                                  for resitem in break_topic[0]["preBuildAlternative"] :
-                                                     
+
                                                         if funcResult[0] == resitem["type"]["value"]:
                                                             response = resitem["response"]
                                                  

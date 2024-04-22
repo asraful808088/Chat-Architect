@@ -61,6 +61,580 @@
       "confWrong": [],
       "id": "1e252073-326c-4c1d-8026-a0f01453fa54",
       "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye!",
+      "confWrong": [],
+      "id": "1091f7ad-67c1-49cd-8c3b-5bf73501693b",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "See ya!",
+      "confWrong": [],
+      "id": "0db8bae1-852c-473c-afc1-60889da9305a",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Later!",
+      "confWrong": [],
+      "id": "1106a81d-4f30-4be2-a34f-470e18c5dc27",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Take care!",
+      "confWrong": [],
+      "id": "3897f7c0-45f3-400b-bd89-043ea8df0552",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye-bye!",
+      "confWrong": [],
+      "id": "cac7fc3a-ed08-44b1-a931-95c1b8c4b7df",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "See you soon!",
+      "confWrong": [],
+      "id": "0c3fb87e-ae6c-4447-9a14-b86f68a7073a",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Goodbye now!",
+      "confWrong": [],
+      "id": "1aa69e65-3444-4089-a06c-e7e8b77457dd",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "So long!",
+      "confWrong": [],
+      "id": "71377282-5403-4a4e-bf38-a4f1e8320e64",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye for now!",
+      "confWrong": [],
+      "id": "cb95a9cb-7d1d-4710-b80e-c77a2dca862a",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Catch you later!",
+      "confWrong": [],
+      "id": "e170964a-e53d-4d47-ac18-fbd5c40b0d3c",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Gotta go!",
+      "confWrong": [],
+      "id": "cf6f59c8-74b2-4055-860f-ecee28877f7e",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye, friend!",
+      "confWrong": [],
+      "id": "43091eaf-2ed2-4587-b9d3-6fd11c2683c2",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Time to go!",
+      "confWrong": [],
+      "id": "0de3a710-091e-4ac7-b519-9ff8d54581ca",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye, everyone!",
+      "confWrong": [],
+      "id": "811c4553-052b-40e1-a7a2-c77c2fb2d1c1",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Farewell, all!",
+      "confWrong": [],
+      "id": "3f6d2345-9628-415a-a673-22ff4c7e224c",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Goodnight, folks!",
+      "confWrong": [],
+      "id": "f0054cc6-6eed-4905-9e32-019a406a92a3",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "See you tomorrow!",
+      "confWrong": [],
+      "id": "d1eeda27-ed9f-49a4-9d85-d6dbfa20789c",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Have a good one!",
+      "confWrong": [],
+      "id": "cb04f537-c6a5-44ab-b2a5-7a64922feb2c",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye, take care!",
+      "confWrong": [],
+      "id": "d454938d-54de-4801-8a02-69669b777133",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "See you next time!",
+      "confWrong": [],
+      "id": "e0b5bec7-0cd3-4e82-bb71-7bd8d8eab50e",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "See you later, buddy!",
+      "confWrong": [],
+      "id": "aae5c46c-8f09-467e-8300-ec92c8501c19",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye, bye, now!",
+      "confWrong": [],
+      "id": "ff905a6b-0d12-4a55-adab-9551400f7c55",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Till next time!",
+      "confWrong": [],
+      "id": "c00f5495-8857-4640-8cd4-3734b31fa0d9",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Adios, amigos!",
+      "confWrong": [],
+      "id": "55f2ea58-c640-4b62-9d45-d785d161cf15",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Farewell, friend!",
+      "confWrong": [],
+      "id": "be1411c4-0216-48f2-93d9-7ac8a45e9e3e",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Take it easy, mate!",
+      "confWrong": [],
+      "id": "af6b6bdd-f237-4db9-a185-701bc8556507",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye, have a good one!",
+      "confWrong": [],
+      "id": "d5fadd88-adc6-4c4f-9b59-a65083d82e8c",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye for now, pal!",
+      "confWrong": [],
+      "id": "6f3d71d2-a973-4ee0-a39d-30953a77178b",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "So long, folks!",
+      "confWrong": [],
+      "id": "fa2e31d8-e70e-4944-bf26-f6f6fbf7bb8a",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Catch you later, alligator!",
+      "confWrong": [],
+      "id": "dc477113-4075-4c8b-81b7-cee183a8e85d",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "See you soon, mate!",
+      "confWrong": [],
+      "id": "2427d3c1-4735-41c9-90d3-afcd22c6c98d",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Time to say goodbye!",
+      "confWrong": [],
+      "id": "4e7aa235-2ee4-4bde-95fc-b01859608db4",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye, see you tomorrow!",
+      "confWrong": [],
+      "id": "fe72a503-a6d7-4479-ab13-5a6d82884a69",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Later, dude!",
+      "confWrong": [],
+      "id": "a13d861b-f6b9-49e2-bc20-9ec67ca6895c",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "See you later, all!",
+      "confWrong": [],
+      "id": "691903ad-c082-4aeb-8882-79ad4426de25",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Have a good day, bye!",
+      "confWrong": [],
+      "id": "005dbbd0-0833-4e96-9187-2422392dd923",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Goodbye, take care now!",
+      "confWrong": [],
+      "id": "e8ebec56-d3ad-40e8-b76e-0f2d0630cf32",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye, have a nice day!",
+      "confWrong": [],
+      "id": "4c5908da-acaa-40cb-b01f-1102f78ced78",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye-bye, my friend!",
+      "confWrong": [],
+      "id": "8bcb9844-abca-4793-91ae-3163c4b227d7",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Until next time, bye!",
+      "confWrong": [],
+      "id": "4ece18c0-69af-4aa4-94ef-fff10f506bcb",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "See you around, buddy!",
+      "confWrong": [],
+      "id": "5f458b2e-e839-4d31-bf6f-31dba444bb67",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye, see you later, mate!",
+      "confWrong": [],
+      "id": "9681d887-2d2b-4561-8e48-4c58dfd61ef7",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Goodbye, stay safe!",
+      "confWrong": [],
+      "id": "a5e4e483-f569-424d-a819-7d83add708ab",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Catch you later, buddy!",
+      "confWrong": [],
+      "id": "32003156-1e15-4cce-9c84-9f180227efa7",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye now, take care!",
+      "confWrong": [],
+      "id": "e6b4a90b-048a-460a-b278-55846264146a",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye, see you next time!",
+      "confWrong": [],
+      "id": "b7bbdfbb-c410-42f1-a2a3-ec9ea8b5a317",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Take care, bye-bye!",
+      "confWrong": [],
+      "id": "3940f187-494f-457d-9d7d-5e4c2f52f776",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "See you later, friend!",
+      "confWrong": [],
+      "id": "9538427e-cfb1-4a95-a2d4-662e581ef875",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye, have a great day!",
+      "confWrong": [],
+      "id": "d35a75f6-b681-46f2-b16a-f317b14830b7",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Farewell, until we meet again!",
+      "confWrong": [],
+      "id": "5fde15ba-8856-497d-aa28-60e19e5fff56",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye, bye, take care!",
+      "confWrong": [],
+      "id": "65157d23-8f3d-418c-b7dc-1aa01daf9ee1",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "See you, buddy!",
+      "confWrong": [],
+      "id": "9ec3c30d-b95b-4659-b81c-48364f906cff",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Catch you later, friend!",
+      "confWrong": [],
+      "id": "19b0e07d-c813-4bc3-9a87-c50c2282a7c0",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Till we meet again!",
+      "confWrong": [],
+      "id": "acd21355-d072-4f99-9c9b-be07b01f0f8a",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye now, see you soon!",
+      "confWrong": [],
+      "id": "98a4f8e9-2f9a-46d6-88f4-d1f3b518d33b",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Farewell, my friend!",
+      "confWrong": [],
+      "id": "11f17517-562b-46df-a50b-006df79bddff",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "See you later, bye!",
+      "confWrong": [],
+      "id": "17e31c23-694d-4edd-967f-32875be3a092",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Take care, bye now!",
+      "confWrong": [],
+      "id": "65e3b568-b407-47dc-bc2a-feb5406098f3",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye, bye, stay safe!",
+      "confWrong": [],
+      "id": "25207581-1e8c-461d-93ac-ba23dc125a20",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "See you soon, take care!",
+      "confWrong": [],
+      "id": "9a6c1ce6-049e-49be-84dd-82ad5d884018",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye for now, friend!",
+      "confWrong": [],
+      "id": "59f44247-ea7c-47d8-9f98-67a969dbd3e8",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Catch you later, mate!",
+      "confWrong": [],
+      "id": "16dddff4-b9dc-47df-904d-c0c445799704",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "See you, take care!",
+      "confWrong": [],
+      "id": "ed934b3c-4af3-4b9c-9643-8c5e0afa872b",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Goodbye, buddy!",
+      "confWrong": [],
+      "id": "8652dbf2-932b-444c-a51a-c0bd92bc3f20",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye now, have a great day!",
+      "confWrong": [],
+      "id": "6be9c150-b5f9-4713-9c61-7d7daf31ab08",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Take care, see you soon!",
+      "confWrong": [],
+      "id": "76141dc4-fadc-457c-9364-9b3a65eb6b47",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye, have a nice one!",
+      "confWrong": [],
+      "id": "ca4c967c-52ee-48c3-94fa-c2efe1b23f2a",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "See you later, take care!",
+      "confWrong": [
+        "SEE TAKE CARE! YOU LATER,",
+        "see take care! you later,",
+        "See take care! you later,"
+      ],
+      "id": "a5f67dfb-8f63-4dd5-b714-47fb8c24f9ed",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Till next time, bye!",
+      "confWrong": [],
+      "id": "532f8a18-70e9-4f6c-9964-2c29f1797d4e",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye now, stay safe!",
+      "confWrong": [],
+      "id": "dcade55c-4cb3-4151-913f-6d2a85a17376",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye, take it easy!",
+      "confWrong": [],
+      "id": "37b298b9-b3cc-4380-b2fc-8829dc810662",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "See you, have a good day!",
+      "confWrong": [],
+      "id": "0d8deac4-2a78-4b55-80a2-72e866791682",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Catch you later, bye!",
+      "confWrong": [],
+      "id": "eaf9a0fc-6ffc-4e1f-87a0-1ca0b75b37a0",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye now, see you later!",
+      "confWrong": [],
+      "id": "394ffa56-ed9a-49c1-94c9-d52412b66890",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Take care, see you next time!",
+      "confWrong": [],
+      "id": "a1c8dec4-4d57-48a4-8ca1-b14e69bf83e2",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Farewell, take care now!",
+      "confWrong": [],
+      "id": "b33cca10-2120-4e3b-bd5d-73f96633fc72",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye, have a wonderful day!",
+      "confWrong": [],
+      "id": "392bc526-f926-4dee-8e39-94df50aa004b",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "See you later, have a good one!",
+      "confWrong": [],
+      "id": "21684702-092b-48c8-bf63-8f51dac70042",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye for now, take care!",
+      "confWrong": [],
+      "id": "31986346-a8fa-471f-acd8-8d12d69c9936",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Till we meet again, goodbye!",
+      "confWrong": [],
+      "id": "6d0d53ba-4473-4a01-b45a-7e9a418fa9e6",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye, see you in a bit!",
+      "confWrong": [],
+      "id": "2d311808-9f0a-49ad-a16d-b6608d2a7527",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Take care, see you around!",
+      "confWrong": [],
+      "id": "422a4677-135a-4bb2-b1a3-64ea3098a9fd",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye now, till next time!",
+      "confWrong": [],
+      "id": "d2f118b9-cce2-4b2c-b61b-04859b221c4f",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "See you, bye for now!",
+      "confWrong": [],
+      "id": "3ece97f2-ce5c-4a16-9543-149851d4ed20",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Catch you later, take care!",
+      "confWrong": [],
+      "id": "3e495727-7280-4646-be15-99951c496cab",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye, have a good day!",
+      "confWrong": [],
+      "id": "afea3a26-5442-47f2-806a-f5b185842196",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "See you soon, bye now!",
+      "confWrong": [],
+      "id": "f80c809a-4f3a-4e0a-a762-26753e799d6a",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye, take care of yourself!",
+      "confWrong": [],
+      "id": "ad53bb53-d875-4d41-b5df-632914fdc4ed",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye now, have a great one!",
+      "confWrong": [],
+      "id": "7faa80af-23b0-457a-baf3-965b733466fd",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Take care, bye for now!",
+      "confWrong": [],
+      "id": "a3dc296f-5220-40b0-bca7-72169c4d973c",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "See you later, have a nice day!",
+      "confWrong": [],
+      "id": "bdc0e147-5e57-40c3-84e7-ef90d6c2f76a",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Till next time, take care!",
+      "confWrong": [],
+      "id": "bdcf3e07-bd24-48d4-9d62-d87d4aeab38b",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Bye, see you later, alligator!",
+      "confWrong": [],
+      "id": "81cf284e-ab85-4185-a45d-c4a3da6b2b34",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "See you, bye-bye now!",
+      "confWrong": [],
+      "id": "01fc3e95-e46e-4a21-b939-ba589fba7bd7",
+      "mainBlocName": "bye"
+    },
+    {
+      "text": "Catch you later, bye for now!",
+      "confWrong": [],
+      "id": "42c6ebcd-2f56-4fac-bd33-c2be994daf7a",
+      "mainBlocName": "bye"
     }
   ],
   "option": {}

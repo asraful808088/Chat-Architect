@@ -1,7 +1,6 @@
 import json
 import os
 import sys
-from typing import NoReturn
 sys.path.append('./')
 
 from  chatMenegment.checkNext import checkNext
@@ -321,6 +320,7 @@ def chatManager(conversitionBloc,intent,travleConv,fullConersition,initIntent,re
         return newConvList
     elif ConversitionStap.CHECK_LAST == gotIntence["type"]:
         if callable(response):
+               
                doc["response"] = travleConv[len(travleConv)-1]["response"]
                response(doc)
         return travleConv
@@ -330,36 +330,21 @@ def chatManager(conversitionBloc,intent,travleConv,fullConersition,initIntent,re
                response(doc)
         return gotIntence["items"]
     elif ConversitionStap.TOPIC_BRACK == gotIntence["type"]:
+        reuslt  = searchConv(fullConersition,gotIntence["item"]["intent"],chat_property=chat_property,memorize=memorize)
         if callable(response):
-               doc["response"] = gotIntence["item"]["response"]
+               doc["response"] = reuslt["response"]+ gotIntence["item"]["response"]
                response(doc)
-        reuslt  = searchConv(fullConersition,gotIntence["item"]["intent"])
-        return [{
-                    "intent": reuslt["intent"],
-                    "passAlternative":False,
-                    "id":reuslt["id"],
-                    "index":reuslt["index"],
-                    "response":reuslt["response"],
-                    "loopActive":reuslt["loopActive"],
-                    "sequence":reuslt["sequence"] ,
-                    "currentAlternative":False,
-                }]
+
+        return [reuslt["itemObject"]]
        
     elif ConversitionStap.RETRY_TOPIC == gotIntence["type"]:
       
         if callable(response):
-               doc["response"] =  travleConv[len(travleConv)-1]["response"]
+               doc["response"] =  gotIntence["response"]
                response(doc)
         return travleConv
     elif ConversitionStap.TOPIC_BRACK_FROM_NEXT == gotIntence["type"]:
-        # change
-        # change
-        # change
-        # change
-        # change
-        # change
         reuslt  = redirectConvSecounce(travleConv,chat_property=chat_property,memorize=memorize,fullConersition=fullConersition)
-        print(reuslt["response"])
         if callable(response):
                doc["response"] = gotIntence["item"]["response"] + reuslt["response"]
                response(doc)
@@ -433,12 +418,14 @@ class CreateConversation:
     def injectIntent(self, intent):
         # intent,_ = predict(message)
         if self.currentConversition == None:
-            result  = searchConv(self.__allConversition,intent=intent)
+            result  = searchConv(self.__allConversition,intent=intent,chat_property=self.chat_property,memorize=self.memorize)
+            
             if result==False:
                 self.responseHandler({'response': ['finalDefault.response']})
                 return False
             else:
-                self.currentConversition = result
+                self.currentConversition = result["itemObject"]
+       
         convsequence  = chatManager(self.currentConversition,intent,self.travleConv,self.__allConversition,self.currentConversition["intent"],response=self.responseHandler,memorize=self.memorize,chat_property=self.chat_property)
        
         
@@ -448,8 +435,8 @@ class CreateConversation:
               self.travleConv=convsequence
           else:
                self.travleConv=convsequence
-               reuslt  = searchConv(self.__allConversition,intent=convsequence[0]["intent"])
-               self.currentConversition = reuslt
+               reuslt  = searchConv(self.__allConversition,intent=convsequence[0]["intent"],chat_property=self.chat_property,memorize=self.memorize)
+               self.currentConversition = reuslt["itemObject"]
             
 
 
@@ -462,17 +449,13 @@ def onRes(value):
 newc = CreateConversation()
 newc.onResponse = onRes
 newc.injectIntent("asdasd")
-newc.injectIntent("oam")
-newc.injectIntent("oam")
-newc.injectIntent("conf.asdasd")
-newc.injectIntent("asdasd123123")
-newc.injectIntent("oam")
-newc.injectIntent("oam")
+newc.injectIntent("oasdam")
 newc.injectIntent("oam")
 
-newc.injectIntent("conf.asdasd")
-
+# newc.injectIntent("conf.asdasd")
 # newc.injectIntent("conf.bye")
+# newc.injectIntent("conf.asdasd")
+
 
 # newc.injectIntent("conf.asdasd")
 # newc.injectIntent("new_intent")

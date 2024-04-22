@@ -1,6 +1,6 @@
 import sys
 sys.path.append('./')
-from .function import functionBook
+from function import functionBook
 def checkNext(obj,expectation="",memorize={},chat_property={}):
     if obj["intent"]==expectation:
         
@@ -13,12 +13,12 @@ def checkNext(obj,expectation="",memorize={},chat_property={}):
                     for itemOfLoop in obj["conditionItems"]["items"]:
                         if itemOfLoop["value"]==obj["prefixfunc"]["setValue"]:
                             loopfun = itemOfLoop["loopActive"]
-                            
+                   
                     gotInfo = gotLoopAndRes[0] 
-
+                   
                     try:
                         
-                       
+                         
 
                         return {
                         "intent":expectation,
@@ -33,10 +33,13 @@ def checkNext(obj,expectation="",memorize={},chat_property={}):
                          "memo":funcResult[1]
                         }
                     except:
+                        
                         return None
                 else:
+                   
                     return None
             except:
+                print("x123123123123123")
                 return None
         else:
             try:

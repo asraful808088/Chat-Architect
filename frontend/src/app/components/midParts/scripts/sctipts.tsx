@@ -39,7 +39,7 @@ export default function MidPartOfScripts() {
     }
   }, [intence.socket, itemsDetails]);
   return (
-    <div className="w-full relative"
+    <div className="w-full relative overflow-y-auto"
     
     style={{
       height:"calc(100vh - 120px)"

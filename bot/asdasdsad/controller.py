@@ -1,17 +1,17 @@
 import json
 import os
 import sys
-from typing import NoReturn
 sys.path.append('./')
-from chatMenegment.checkNext import checkNext
-from chatMenegment.checkAlternative import checkAlternative
-from chatMenegment.loopHandler import loophandler
-from chatMenegment.checkBackOne import checkBackOne
-from chatMenegment.checkSecunce import checkSecunce
-from chatMenegment.checkAlternativeConv import checkAlternativeConv
-from chatMenegment.switch import redirectConvSecounce
-from chatMenegment.searchConv import searchConv
-from chatMenegment.defaultHandler import defaultHandle
+
+from  checkNext import checkNext
+from  checkAlternative import checkAlternative
+from  loopHandler import loophandler
+from  checkBackOne import checkBackOne
+from  checkSecunce import checkSecunce
+from  checkAlternativeConv import checkAlternativeConv
+from  switch import redirectConvSecounce
+from  searchConv import searchConv
+from  defaultHandler import defaultHandle
 from responseload import getResponseItems
 from extrack_and_rep_var import replace_variables
 from model import predict
@@ -74,13 +74,14 @@ def runConversition(obj,expectation="",storeConv=[],allConversition = [],loop = 
                 
             
 
-        if storeConv[0]["intent"] == obj["intent"] and obj["nextConv"] !=None  and subAlternative==False:
+        if storeConv[0]["intent"] == obj["intent"] and obj["nextConv"] !=None  and subAlternative==False  and storeConv[0]["id"]== obj["id"]:
+            
             deleteFromStart = storeConv[1:]
             result  = runConversition(obj["nextConv"],expectation=expectation,storeConv=deleteFromStart,allConversition=allConversition,initIntent=initIntent,lastConv=storeConv[len(storeConv)-1],loopTracker=loopTracker,alltravleItems=alltravleItems,memorize=memorize,chat_property=chat_property)
             if result!=None:
                 return result
         elif checkAlternativeConv(obj["alterConv"], storeConv[0]):
-           
+            
             deleteFromStart = storeConv[0:]
             subAlternative = False
             if storeConv[0]["passAlternative"]:
@@ -91,6 +92,12 @@ def runConversition(obj,expectation="",storeConv=[],allConversition = [],loop = 
             if result!=None:
                  return result  
         else:
+            if checkBackOne(lastConv,expectation,obj) and loop==False and checkLastOne:
+                doc = {}
+                doc["type"] = ConversitionStap.CHECK_LAST
+                result  = checkBackOne(lastConv,expectation,obj)
+                doc["lastConv"] = result
+                return doc
             doc = {}
             doc["type"]  =  ConversitionStap.FINAL_DEFAULT
             doc["lastConv"] = {"unknowledgeable":"intent","from":"new add"}
@@ -102,7 +109,9 @@ def runConversition(obj,expectation="",storeConv=[],allConversition = [],loop = 
             doc = {}
             doc["item"] = checkNext(obj=obj,expectation=expectation)
             doc["type"] = ConversitionStap.PUT_SINGLE_ITEM
+            
             if doc["item"]["loopActive"]["active"] and doc["item"]["loopActive"]["returnIndex"]["colIndex"] == "any" :
+                
                 redoc = {}
                 redoc["type"] = ConversitionStap.TOPIC_BRACK_FROM_NEXT
                 redoc["item"] = doc["item"]
@@ -118,7 +127,7 @@ def runConversition(obj,expectation="",storeConv=[],allConversition = [],loop = 
                 result["parentBloc"]
                 
                 if result["loopActive"]["active"] and result["loopActive"]["returnIndex"]["colIndex"]=="any" and  result["parentBloc"]["intent"]=="any":
-                    print("travle any ")
+                   
                     doc["type"] = ConversitionStap.TOPIC_BRACK
                     doc["item"] = {
                         "intent":result["travleBloc"]["brackIntent"] ,
@@ -128,7 +137,7 @@ def runConversition(obj,expectation="",storeConv=[],allConversition = [],loop = 
                 
                 if result["loopActive"]["active"] and  result["parentBloc"]["intent"]=="any" and not (result["loopActive"]["returnIndex"]["colIndex"]=="any" or result["loopActive"]["returnIndex"]["colIndex"]=="" or result["loopActive"]["returnIndex"]["colIndex"]==" " ):
                     
-                    print("loop backward")
+                    
                     loopTravle = []
                     for item in alltravleItems:
                         loopTravle.append(item)
@@ -141,7 +150,7 @@ def runConversition(obj,expectation="",storeConv=[],allConversition = [],loop = 
                 
                 try:
                     if result["brack_topic_next"]==None and result["parentBloc"]["intent"]=="any" and result["loopActive"]["active"]==False:
-                        print("readly topic")
+                   
                         doc["type"] = ConversitionStap.RETRY_TOPIC
                         doc["response"] = result["prevBlocRes"]
                         return doc
@@ -149,6 +158,7 @@ def runConversition(obj,expectation="",storeConv=[],allConversition = [],loop = 
                     pass
 
                 if result["loopActive"]["active"] and result["loopActive"]["returnIndex"]["colIndex"]=="any":
+                    
                     redoc = {}
                     redoc["type"] = ConversitionStap.TOPIC_BRACK_FROM_NEXT
                     redoc["item"] = result
@@ -162,16 +172,16 @@ def runConversition(obj,expectation="",storeConv=[],allConversition = [],loop = 
                 listOfBloc.append(result)
                 doc["items"] = listOfBloc
                 doc["type"] = ConversitionStap.PUT_MULTIITEM
-                print("oladasdasda")
+               
                 return doc
             except:
-                
                 try:
                     listOfBloc = []
                     
                     result["brack_topic"]
                     
                     if result["loopActive"]["active"]:
+                        
                         
                         if result["loopActive"]["returnIndex"]["colIndex"]=="any" or result["loopActive"]["returnIndex"]["colIndex"]=="" or result["loopActive"]["returnIndex"]["colIndex"]==" ":
                             
@@ -210,6 +220,7 @@ def runConversition(obj,expectation="",storeConv=[],allConversition = [],loop = 
                 except:
                     
                     if result["loopActive"]["returnIndex"]["colIndex"] and result["loopActive"]["active"]:
+                        
                         redoc = {}
                         redoc["type"] = ConversitionStap.TOPIC_BRACK_FROM_NEXT
                         redoc["item"] = result
@@ -218,10 +229,11 @@ def runConversition(obj,expectation="",storeConv=[],allConversition = [],loop = 
                     doc["type"] = ConversitionStap.PUT_SINGLE_ITEM
                     doc["item"] = result
                     return doc
-        elif checkBackOne(lastConv,expectation) and loop==False and checkLastOne:
+        elif checkBackOne(lastConv,expectation,obj) and loop==False and checkLastOne:
+            
             doc = {}
             doc["type"] = ConversitionStap.CHECK_LAST
-            result  = checkBackOne(lastConv,expectation)
+            result  = checkBackOne(lastConv,expectation,obj)
             doc["lastConv"] = result
             return doc
         elif  checkSecunce(alltravleItems,expectation) and loop==False :
@@ -243,11 +255,48 @@ def runConversition(obj,expectation="",storeConv=[],allConversition = [],loop = 
             doc["response"] = result["response"]
             return doc
         else :
+          
             doc = {}
             doc["type"]  =  ConversitionStap.FINAL_DEFAULT
             doc["lastConv"] = {"unknowledgeable":"intent","from":"new add"}
             
             return doc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -271,6 +320,7 @@ def chatManager(conversitionBloc,intent,travleConv,fullConersition,initIntent,re
         return newConvList
     elif ConversitionStap.CHECK_LAST == gotIntence["type"]:
         if callable(response):
+               
                doc["response"] = travleConv[len(travleConv)-1]["response"]
                response(doc)
         return travleConv
@@ -280,47 +330,26 @@ def chatManager(conversitionBloc,intent,travleConv,fullConersition,initIntent,re
                response(doc)
         return gotIntence["items"]
     elif ConversitionStap.TOPIC_BRACK == gotIntence["type"]:
+        reuslt  = searchConv(fullConersition,gotIntence["item"]["intent"],chat_property=chat_property,memorize=memorize)
         if callable(response):
-               doc["response"] = gotIntence["item"]["response"]
+               doc["response"] = reuslt["response"]+ gotIntence["item"]["response"]
                response(doc)
-        reuslt  = searchConv(fullConersition,gotIntence["item"]["intent"])
-        return [{
-                    "intent": reuslt["intent"],
-                    "passAlternative":False,
-                    "id":reuslt["id"],
-                    "index":reuslt["index"],
-                    "response":reuslt["response"],
-                    "loopActive":reuslt["loopActive"],
-                    "sequence":reuslt["sequence"] ,
-                    "currentAlternative":False,
-                }]
+
+        return [reuslt["itemObject"]]
        
     elif ConversitionStap.RETRY_TOPIC == gotIntence["type"]:
       
         if callable(response):
-               doc["response"] =  travleConv[len(travleConv)-1]["response"]
+               doc["response"] =  gotIntence["response"]
                response(doc)
         return travleConv
     elif ConversitionStap.TOPIC_BRACK_FROM_NEXT == gotIntence["type"]:
+        reuslt  = redirectConvSecounce(travleConv,chat_property=chat_property,memorize=memorize,fullConersition=fullConersition)
         if callable(response):
-               doc["response"] = gotIntence["item"]["response"]
+               doc["response"] = gotIntence["item"]["response"] + reuslt["response"]
                response(doc)
-        reuslt  = redirectConvSecounce(travleConv)
-        for item in fullConersition:
-            if item['intent']== reuslt["brackIntent"]:
-                
-                return [{
-                    "intent": item["intent"],
-                    "passAlternative":False,
-                    "id":item["id"],
-                    "index":item["index"],
-                    "response":item["response"],
-                    "loopActive":item["loopActive"],
-                    "sequence":item["sequence"] ,
-                    "currentAlternative":False,
-                }]
         
-        return gotIntence["item"]
+        return [reuslt["item"]]
     elif ConversitionStap.PRIVATE_DEFAULT==gotIntence["type"]:
         if callable(response):
                doc["response"] =gotIntence["response"]
@@ -340,6 +369,7 @@ def chatManager(conversitionBloc,intent,travleConv,fullConersition,initIntent,re
 
 
     else:
+         
          if callable(response):
             #    print(gotIntence)
                doc["response"] = ["finalDefault.response"]
@@ -388,21 +418,39 @@ class CreateConversation:
     def injectIntent(self, message):
         intent,_ = predict(message)
         if self.currentConversition == None:
-            result  = searchConv(self.__allConversition,intent=intent)
-            if result==False:
+            result  = searchConv(self.__allConversition,intent=intent,chat_property=self.chat_property,memorize=self.memorize)
+            
+            if result==False or result==None:
                 self.responseHandler({'response': ['finalDefault.response']})
                 return False
             else:
-                self.currentConversition = result
-        convsequence  = chatManager(self.__currentConversition,intent,self.travleConv,self.__allConversition,self.currentConversition["intent"],response=self.responseHandler,memorize=self.memorize,chat_property=self.chat_property)
+                self.currentConversition = result["itemObject"]
+       
+        convsequence  = chatManager(self.currentConversition,intent,self.travleConv,self.__allConversition,self.currentConversition["intent"],response=self.responseHandler,memorize=self.memorize,chat_property=self.chat_property)
+       
+        
+        
         if isinstance(convsequence, list):
           if convsequence[0]["intent"]==self.currentConversition["intent"] and convsequence[0]["id"]==self.currentConversition["id"]:
               self.travleConv=convsequence
           else:
                self.travleConv=convsequence
-               reuslt  = searchConv(self.__allConversition,intent=convsequence[0]["intent"])
-               self.currentConversition = reuslt
+               reuslt  = searchConv(self.__allConversition,intent=convsequence[0]["intent"],chat_property=self.chat_property,memorize=self.memorize)
+               self.currentConversition = reuslt["itemObject"]
             
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

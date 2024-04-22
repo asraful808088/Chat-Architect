@@ -1,10 +1,12 @@
 from chatMenegment.function import functionBook
 def defaultHandle(obj,chat_property={},memorize={}):
+    print("Asdasdasdasdasdasdasdsadasd")
     if obj["defaultAlternative"]==None:
         return False
   
     try:
             if obj["defaultAlternative"]["prefixfunc"]!=None:
+                 
                  for item in obj["defaultAlternative"]["preBuildAlternative"]:
                       try:
                             funcResult = functionBook[obj["defaultAlternative"]["prefixfunc"]["name"]](chat_property=chat_property,memorize=memorize)
